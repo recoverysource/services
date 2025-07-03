@@ -1,0 +1,310 @@
+<style>
+/* Styling for the filter menu */
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Styling for each filter group */
+.filter-group {
+  display: flex;
+  flex-basis: calc(100% - 7em);
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Styling for the filter options */
+.filter-option {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: white;
+  font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"] {
+  width: 100%;
+}
+
+/* Styling for the reset button */
+#reset-filters {
+  font-weight: bold;
+  background-color: #0060ae;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+#reset-filters:hover {
+  background-color: #007bff;
+}
+
+/* Styling for each expand-row button */
+.expand-button {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #0060ae;
+  color: #fff;
+  border: none;
+  transition: background-color 0.3s;
+  /* Circle */
+  border-radius: 50%;
+}
+
+.expand-button:hover {
+  background-color: #007bff;
+}
+
+/* Reduce table jitter */
+.col-1 {
+  width: 120px;
+}
+
+.col-3 {
+  width: 200px;
+}
+
+/* Column sorting */
+.sortable {
+  cursor: pointer;
+  position: relative;
+}
+
+.sortable::before {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  position: absolute;
+  right: 5px;
+}
+
+.sort-asc::before {
+  border-bottom: 5px solid black;
+}
+
+.sort-desc::before {
+  border-top: 5px solid black;
+}
+
+.infobutton {
+  float: right;
+}
+
+.infobutton button {
+  width: 1.7em;
+  margin: 0;
+  padding: 0;
+}
+
+.keywords {
+  font-style: italic;
+}
+</style>
+
+<div id="filter-menu" class="search-bar">
+  <noscript>{{ T "filter_noscript" }}</noscript>
+  <div class="filter-group">
+    <input id="search-filter" class="filter-option" type="text" placeholder="{{ T "filter" }}" />
+  </div>
+  <button id="reset-filters">{{ T "reset" }}</button>
+</div>
+
+{{- $domains := index $.Site.Data.domains (.Get "domains") }}
+{{- $keys := slice }}
+{{- range $k, $v := $domains }}
+  {{- $keys = $keys | append $k }}
+  {{- if not (isset $v "type") }}
+    {{- $target := lower $v.target }}
+    {{- if findRE "github\\.io|gitlab\\.io|pages\\.dev" $target }}
+      {{- $domains = merge $domains (dict $k (dict "type" "cname")) }}
+    {{- else }}
+      {{- $domains = merge $domains (dict $k (dict "type" "forward")) }}
+    {{- end }}
+  {{- end }}
+{{- end }}
+{{- $sortable_keys := apply $keys "partial" "mangle_key" "." }}
+{{- $sorted_keys := (sort $sortable_keys "value" "asc") }}
+{{- $sorted_keys = apply $sorted_keys "partial" "unmangle_key" "." }}
+<table id="searchable-table">
+  <colgroup>
+    <col class="col-1">
+    <col class="col-2">
+    <col class="col-3">
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="sortable">{{ T "subdomain" }}</th>
+      <th class="sortable">{{ T "title" }}</th>
+      <th class="sortable">{{ T "forward" }}</th>
+    </tr>
+  </thead>
+  <tbody>{{ range $key := $sorted_keys }}{{ $domain := (index $domains $key) }}{{ if isset $domain "title" }}
+    <tr class="searchable-row" data-searchable="{{ lower $key }} {{ lower $domain.title }} {{ if eq $domain.type "forward" }}{{ lower $domain.target }}{{ end }} {{ lower (default "" $domain.keywords) }}">
+      <td><a href="https://{{ $key }}.sober.page">{{ $key }}</a>
+          {{- if isset $domain "keywords" }}<span class="infobutton"><button title="{{ T "expand_tip" }}" class="expand-button">+</button></span>{{ end }}</td>
+      <td>{{ if in $key "-" }}{{ $domain.title }}{{ else }}<b>{{ $domain.title }}</b>{{ end }}</td>
+      <td>{{ if eq $domain.type "forward" }}<a href="{{ $domain.target }}">{{ replace (lower $domain.target) "www." "" }}</a>
+          {{- else if eq $domain.type "cname" }}<a href="https://{{ $key }}.sober.page">https://{{ $key }}.sober.page</a>{{ end }}
+      </td>
+    </tr>
+    <tr class="expandable-row" data-parent="{{ $key }}" style="display: none;">
+      <td></td>
+      <td colspan="2" class="keywords">{{ $domain.keywords }}</td>
+    </tr>{{ end }}{{ end }}
+  </tbody>
+</table>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+
+  // Search Filters and Sorting
+  const searchFilter = document.getElementById("search-filter");
+  const resetFilterBtn = document.getElementById("reset-filters");
+  const searchableRows = document.querySelectorAll(".searchable-row");
+  const sortableHeaders = document.querySelectorAll(".sortable");
+  let currentSortedHeader = null;
+  let ascending = true;
+
+  // Collapsible Row
+  const expandButtons = document.querySelectorAll('.expand-button');
+
+  // Load saved filter choices when the page is loaded
+  loadSavedFilters();
+
+  // Event listeners
+  searchFilter.addEventListener("input", filterList);
+  resetFilterBtn.addEventListener("click", resetFilters);
+  sortableHeaders.forEach(header => {
+    header.addEventListener("click", () => {
+      toggleSort(header);
+      sortList(header);
+    });
+  });
+
+  // Handle expand/collapse button clicks
+  expandButtons.forEach(button => {
+    button.addEventListener('click', function() {
+      const parentRow = button.closest('.searchable-row');
+      const expandableRow = parentRow.nextElementSibling;
+
+      if (button.textContent === '+') {
+        button.textContent = '-';
+        expandableRow.style.display = 'table-row';
+      } else {
+        button.textContent = '+';
+        expandableRow.style.display = 'none';
+      }
+    });
+  });
+
+  function filterList() {
+    const enteredSearch = searchFilter.value.toLowerCase();
+
+    searchableRows.forEach(row => {
+      const rowSearchable = row.getAttribute("data-searchable");
+      // Determine if row matches search string
+      const searchMatch = enteredSearch === "" || rowSearchable.includes(enteredSearch);
+      row.style.display = searchMatch ? "table-row" : "none";
+
+      // Find the expand button and expandable row
+      const expandButton = row.querySelector('.expand-button');
+      const expandableRow = row.nextElementSibling;
+
+      // Check if expandButton and expandableRow are valid
+      if (expandButton && expandableRow) {
+        // Adjust visibility based on search match and button state
+        if (expandButton.textContent === '-' && searchMatch) {
+          expandableRow.style.display = 'table-row';
+        } else {
+          expandableRow.style.display = 'none';
+        }
+      }
+    });
+
+    // Save current filter choices to local storage
+    saveFilters(enteredSearch);
+  }
+
+  function saveFilters(search) {
+    const filters = {
+      search: search,
+    };
+
+    localStorage.setItem("savedFilters", JSON.stringify(filters));
+  }
+
+  function loadSavedFilters() {
+    const savedFilters = JSON.parse(localStorage.getItem("savedFilters"));
+
+    if (savedFilters) {
+      searchFilter.value = savedFilters.search !== undefined ? savedFilters.search : "";
+
+      filterList(); // Apply filters based on loaded values
+    }
+  }
+
+  function resetFilters() {
+    searchFilter.value = "";
+
+    filterList(); // Apply filters after clearing all fields
+  }
+
+  function toggleSort(header) {
+    if (header === currentSortedHeader) {
+      ascending = !ascending;
+    } else {
+      currentSortedHeader = header;
+      ascending = true;
+      removeSortArrows();
+      header.classList.add("sort-asc");
+    }
+    header.classList.toggle("sort-desc", !ascending);
+    header.classList.toggle("sort-asc", ascending);
+  }
+
+  function removeSortArrows() {
+    sortableHeaders.forEach(header => {
+      header.classList.remove("sort-asc", "sort-desc");
+    });
+  }
+
+  function sortList(header) {
+    const columnIndex = Array.from(header.parentNode.children).indexOf(header);
+
+    const sortedRows = Array.from(searchableRows).sort((rowA, rowB) => {
+      const cellA = rowA.children[columnIndex].textContent;
+      const cellB = rowB.children[columnIndex].textContent;
+
+      // Handle empty cells
+      if (cellA === "") return ascending ? 1 : -1;
+      if (cellB === "") return ascending ? -1 : 1;
+
+      return (cellA.localeCompare(cellB)) * (ascending ? 1 : -1);
+    });
+
+    sortedRows.forEach(row => {
+      const parentRow = row;
+      const expandableRow = row.nextElementSibling;
+
+      // Move both parent and expandable rows
+      parentRow.parentNode.appendChild(parentRow);
+      if (expandableRow && expandableRow.classList.contains('expandable-row')) {
+        parentRow.parentNode.appendChild(expandableRow);
+      }
+    });
+  }
+
+});
+</script>

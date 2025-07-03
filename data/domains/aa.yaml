@@ -1,0 +1,1016 @@
+##
+# United States
+##
+
+aa1:
+  title: Alabama/N.W. Florida
+  target: http://www.aaarea1.org
+
+aa1-1:
+  title: Shoals Area (N.W. Alabama)
+  target: https://www.shoalsaa.org
+  feed: tsml^https://www.shoalsaa.org/meetings/
+  keywords: Florence, Lexington, Moulton, Red Bay, Rogersville, Russellville & Sheffield, Colbert, Franklin, Lauderdale & Lawrence Counties, Alabama and Belmont, Mississippi
+
+aa1-2:
+  title: Hartselle, Cullman, and Blountsville, Alabama
+  target: https://the12traditions.com
+  feed: tsml^https://the12traditions.com/meetings/
+  keywords: Allgood, Blountsville, Cullman, Eva, Hartselle
+
+aa1-3:
+  title: Dekalb, Jackson and Marshall Counties, (Northeast) Alabama
+  target: https://aaarea1dist3.org
+  feed: tsml^https://aaarea1dist3.org/meetings/
+  keywords: Albertville, Arab, Douglas, Guntersville, Henagar, Rainsville, & Scottsboro. Dekalb County, Jackson County, Marshall County
+
+aa1-4:
+  title: Coosa Valley, Alabama
+  target: https://coosavalleyaa.org
+  feed: tsml^https://coosavalleyaa.org/?post_type=tsml_meeting
+  keywords: Calhoun, Cherokee, Clay, Cleburne, Etowah, Randolph, St. Clair, Talladega
+
+aa1-5:
+  title: West Alabama
+  target: https://westalaa.org
+  feed: tsml^https://westalaa.org/meetings/
+  keywords: Fayette, Haleyville, Hamilton, Jasper, Tuscaloosa, Vernon, Winfield
+
+aa1-6:
+  title: Birmingham, Alabama
+  target: https://birminghamaa.org
+  feed: tsml^https://birminghamaa.org/wp/meetings/
+  keywords: Adamsville, Alabaster, Bessemer, Birmingham, Calera, Center Point, Dolomite, Homewood, Hoover, Hueytown, Leeds, Montevallo, Morris, Mountain Brook, Pelham, Trussville, Vestavia Hills, & Warrior
+
+aa1-7:  # alias
+  target: https://aa1-6.sober.page
+
+aa1-8:
+  title: Central Alabama
+  target: https://centralalaa.org
+  feed: tsml^https://centralalaa.org/meetings/
+  keywords: Clanton, Greenville, Maplesville, Millbrook, Montgomery, Prattville, Selma, Slapout, Tallassee, Thorsby, Union Springs, Wetumpka, Montgomery
+
+aa1-9:
+  title: East Central Alabama
+  target: https://aaauburn.org
+  feed: tsml^https://aaauburn.org/meetings/
+  keywords: Alexander City, Auburn, Dadeville, Lanett, Opelika, Phenix City, Roanoke, Shorter, Tuskegee
+
+aa1-10:
+  title: Dothan Area, Alabama
+  target: http://www.aadothan.org
+  feed: tsml^https://aadothan.org/meetings/
+  keywords: Ashford, Dothan, Eufaula, Headland
+
+aa1-11:
+  title: Andalusia, Elba, Enterprise, Florala, Level Plains, Luverne, Opp, Ozark and Troy, Alabama
+  target: https://district11aa.com
+  #feed: CUSTOM
+  keywords: Andalusia, Daleville, Enterprise, Level Plains, Opp, Ozark and Troy.  Crenshaw County, Coffee County, Covington County, Dale County, Pike County
+
+aa1-12:
+  title: Mobile, Washington and Choctaw Counties, Alabama
+  target: https://mobileaa.org
+  feed: tsml^https://mobileaa.org/meetings/
+  keywords: Butler, Chatom, Chickasaw, Citronelle, Dauphin Island, Frisco City, Grove Hill, Jackson, Mobile, Monroeville, Saraland, Semmes, Seton, Theodore. Choctaw County, Clarke County, Mobile County, Monroe County, Washington County
+
+aa1-13:
+  title: Northwest Florida Tri-District Area
+  target: https://aapensacola.org
+  # Disabled: JSON.parse()??
+  #feed: tsml^https://aapensacola.org/meetings/
+  keywords: Tri-District Intergroup, Navarre, Florida, Alabama state line, Escambia County, Santa Rosa County
+
+aa1-14:
+  title: Okaloosa and Walton Counties, Alabama
+  target: https://www.fortwaltonbeachaa.org
+  #feed: CUSTOM^https://www.fortwaltonbeachaa.org/meeting-guide
+  keywords: Fort Walton Beach, Destin, Crestview, Niceville; Valparaiso. Okaloosa, and Walton Counties
+
+aa1-15:
+  title: Panama City, Florida
+  target: http://www.panamacityaa.org
+  #feed: CUSTOM^http://www.panamacityaa.org/wherewhen.html
+  keywords: Panama City, Panama City Beach, Lynn Haven, Mexico Beach and Wewahitchka
+
+aa1-16:
+  title: Northwest Florida
+  target: https://aa-area1dist16.org
+  #feed: CUSTOM^https://aa-area1dist16.org/find-a-meeting
+  keywords: Calhoun, Holmes, Jackson, and Washington Counties
+
+#aa1-17:
+#  title: Clark, Conecuh, Escambia, Monroe and Wilcox, Alabama
+#  target: NONE
+#  keywords: Clark, Conecuh, Escambia, Monroe and Wilcox counties
+
+#aa1-18:
+#  title: Bibb, Greene, Hale, Marengo, Perry and Sumter, Alabama
+#  target: NONE
+#  keywords: Bibb, Greene, Hale, Marengo, Perry and Sumter counties
+
+aa1-19:
+  title: Gulf Coast, Florida
+  target: https://gulfcoastaa.org
+  feed: tsml^https://gulfcoastaa.org/meetings/
+  keywords: Central and South Baldwin Counties, Gulf Shores, Orange Beach and Foley
+
+aa1-20:
+  title: Huntsville, Florida
+  target: https://aahuntsvilleal.com
+  feed: tsml^https://aahuntsvilleal.com/meetings/
+  keywords: Athens, Decatur, Huntsville, Madison and Morgan City
+
+aa1-21:  # alias
+  target: https://aa1-13.sober.page
+
+aa1-22:  # alias
+  target: https://aa1-13.sober.page
+
+aa1-23:
+  title: Eastern Shore Baldwin County, Florida
+  target: https://easternshoreaa.org
+  #feed: CUSTOM^https://easternshoreaa.org/
+  keywords: Bay Minette, Daphne, Fairhope, Spanish Fort, Eastern Shore, Baldwin County
+
+aa1-es:
+  title: Spanish Meetings in Alabama/N.W. Florida
+  target: recoverysource-sites.github.io
+  #feed: CUSTOM^https://nebula.wsimg.com/4641a8814cca28f189d2889935a6eb72?AccessKeyId=532853725AE1305576CE&disposition=0&alloworigin=1
+
+aa1-24:  # alias
+  target: https://aa1-es.sober.page
+
+aa1-es:  # aa1-24
+  title: Spanish Meetings in Alabama/N.W. Florida
+  target: recoverysource-sites.github.io
+  #feed: CUSTOM^https://nebula.wsimg.com/4641a8814cca28f189d2889935a6eb72?AccessKeyId=532853725AE1305576CE&disposition=0&alloworigin=1
+
+aa2:
+  title: Alaska
+  target: http://www.area02alaska.org
+
+aa2-a:
+  title: Anchorage Area Intergroup
+  target: https://anchorageaa.org
+  # Disabled: JSON.parse()??
+  #feed: tsml^https://anchorageaa.org/archives/meetings
+
+aa2-f:
+  title: Fairbanks Intergroup
+  target: https://www.fairbanksaa.org/
+  #feed: SHEETS^https://www.fairbanksaa.org/meeting-schedule
+
+aa2-j:
+  title: Juneau Intergroup
+  target: https://aajuneauak.org
+  feed: tsml^https://aajuneauak.org/meetings/
+
+aa2-k:
+  title: Kenai Peninsula Intergroup
+  target: https://aakenaipeninsula.org
+  feed: tsml^https://aakenaipeninsula.org/meetings/
+
+aa2-m:
+  title: Mat-Su Valley Intergroup
+  target: https://www.alaskamatsuaa.org/
+  #feed: CUSTOM^https://www.alaskamatsuaa.org/meetings/
+
+aa2-s:
+  title: Sitka Intergroup
+  target: https://www.sitkaintergroup.org
+  #feed: CUSTOM^https://www.sitkaintergroup.org/meetings/
+
+aa3:
+  title: Arizona
+  target: http://www.area03.org
+  # Disabled for various issues
+  #feed: tsml^https://area03.com/?post_type=tsml_meeting
+
+aa4:
+  title: Arkansas
+  target: http://www.arkansasaa.org
+  feed: tsml^https://arkansascentraloffice.org/meetings/
+
+aa4-1:
+  title: Northwest Arkansas
+  target: https://www.nwarkaa.org
+  #feed: merged with aa4
+  keywords: Bella Vista, Bentonville, Elkins, Eureka, Springs, Farmington, Fayetteville, Gravette, Harrison, Huntsville, Pea Ridge, Prairie Grove, Rogers, Siloam Springs, Springdale, Tontitown, West Fork
+
+aa4-4:
+  title: Fort Smith Area, Arkansas
+  target: https://aafsig.org
+  #feed: merged with aa4
+
+aa4-6:
+  title: Independence, Cleburne, Jackson, Woodruff and White Counties, Arkansas
+  target: https://araadist6.org
+  #feed: merged with aa4
+
+aa4-8:
+  title: West Central Arkansas
+  target: https://www.aawcar.org
+  #feed: merged with aa4
+
+aa4-13:
+  title: Lingüistico Arkansas
+  target: https://distrito13arkansas.com
+  #feed: merged with aa4
+
+aa5:
+  title: Southern California
+  target: http://www.area05aa.org
+  #feed: provided by aa5-la
+
+aa5-la:
+  title: Los Angeles
+  target: https://lacoaa.org
+  #feed: UNKNOWN^https://lacoaa.org/meetings.php
+
+aa5-es-la:
+  title: Hispano de Los Angeles
+  target: https://hispanaaala.org/
+  #feed: provided by aa5-la
+
+aa5-wcd:
+  title: West Combined Districts, California
+  target: https://www.westsidedistricts.org
+
+#aa5-cih:  # offline
+#  title: Combined Hispanic Districts, California
+#  target: http://www.aaciharea05.org
+
+aa5-18:
+  title: Whittier, La Habra, La Mirada, Hacienda Heights, California
+  target: http://aadistrict18.com
+
+aa5-30:
+  title: Montclair Area, California
+  target: https://aa-scaa-district30.org
+
+#aa5-33:  # offline
+#  title: Hispano de 7 St, Los Angeles, California
+#  target: https://www.aadistrito33area05.org
+
+aa5-34:
+  title: Hispano de Pomona, California
+  target: https://www.aadistrito34.org
+
+aa5-35:
+  title: Valle de San Gabriel California
+  target: https://www.distrito35aa.org
+
+aa5-49:
+  title: Región Del Pacifico, California
+  target: https://aadistrito49.org
+
+aa5-50:
+  title: Altadena, Pasadena y Highland Park, California
+  target: https://aadistrito50.info
+
+aa5-55:
+  title: Hispano de Broadway Ave, California
+  target: https://www.aadistrito55.org
+
+aa6:
+  title: Northern Coastal California
+  target: http://www.cnca06.org
+
+aa6-1:
+  title: Monterey Bay, Calidornia
+  target: https://www.aamonterey.org
+
+aa6-2:
+  title: Salinas Valley, California
+  target: https://aasalinas.org
+
+aa6-3:
+  title: Santa Cruz County, California
+  target: https://aasantacruz.org
+
+aa6-4:
+  title: Santa Clara County, California
+  target: https://aasanjose.org
+
+aa6-5:
+  title: San Mateo County, California
+  target: https://aa-san-mateo.org
+
+aa6-6:
+  title: San Fransisco and Marin, California
+  target: https://aasfmarin.org
+
+aa6-7:
+  title: East Bay, California
+  target: https://eastbayaa.org
+
+aa6-8:
+  title: Contra Costa, California
+  target: https://contracostaaa.org
+
+aa6-9:
+  title: Solano South, California
+  target: https://aasolanosouth.org
+
+aa6-90:
+  title: North Solano, California
+  target: https://aasolanonorth.org
+
+aa6-10:
+  title: San Fransisco and Marin, California
+  target: https://aasfmarin.org
+
+aa6-11:
+  title: Napa Valley, California
+  target: https://aanapa.org
+
+aa6-12:
+  title: Sonoma County, California
+  target: https://www.sonomacountyaa.org
+
+aa6-13:
+  title: Lake County, California
+  target: https://lakecountycaaa.com
+
+aa6-14:
+  title: Mendocino Coast, California
+  target: https://mendocinocoastaa.com
+
+aa6-15:
+  title: Humboldt and Del Norte Counties, California
+  target: https://aahumboldtdelnorte.org
+
+aa6-17:
+  title: Hispana del Condado de San Mateo, California
+  target: https://aaespanolsanmateoca.com
+
+#aa6-20:  # offline
+#  title: Este de la Bahia, California
+#  target: https://www.distrito20-area06.org
+
+aa6-70:
+  title: TriValley, California
+  target: https://valleyservicecenteraa.org
+
+aa7:
+  title: Northern Interior California
+  target: http://www.cnia.org
+
+aa7-d:
+  title: Amador, Calaveras, San Joaquin and Tuolumne, California
+  target: https://www.aadelta.org
+
+aa7-f:
+  title: Greater Fresno Area, California
+  target: https://www.fresnoaa.org
+
+aa7-c:
+  title: Central Valley, California
+  target: https://aa.cviaa.org
+
+aa7-s:
+  title: Sacramento, California
+  target: https://aasacramento.org
+
+aa7-t:
+  title: Tulare County, California
+  target: https://aa-tulareco.org
+
+aa8:
+  title: San Diego and Imperial Area, California
+  target: http://www.area8aa.org
+
+aa9:
+  title: Mid-Southern California
+  target: http://www.msca09aa.org
+
+aa9-1:
+  title: Torrance Area, California
+  target: https://mscadistrict1.org
+
+aa9-4:
+  title: Long Beach, California
+  target: https://longbeachaa.org
+
+aa9-5:
+  title: Pacific Region, California
+  target: https://district5msca09.com
+
+aa9-6:
+  title: Huntington Beach, California
+  target: https://district6area09.org
+
+aa9-9:
+  title: Palm Desert, California
+  target: https://district9gs.com
+
+aa9-12:
+  title: Pacific Region, California
+  target: https://www.mscadistrict12.org
+
+aa9-17:
+  title: Temecula Area, California
+  target: https://aadistrict17.info
+
+aa10:
+  title: Colorado
+  target: http://www.coloradoaa.org
+
+aa11:
+  title: Connecticut
+  target: http://www.ct-aa.org
+
+aa12:
+  title: Delaware
+  target: http://www.delawareaa.org
+
+aa12-s:
+  title: Southern Delaware
+  target: https://sussexaa.org
+
+aa12-c:
+  title: Central Delaware
+  target: https://www.cdiaa-de.org
+
+aa12-n:
+  title: Northern Delaware
+  target: https://ndiaa.org
+
+aa13:
+  title: District Of Columbia
+  target: http://www.area13aa.org
+
+aa14:
+  title: North Florida
+  target: http://www.aanorthflorida.org
+
+aa14-1:
+  title: Northeast Florida
+  target: https://www.neflaa.org
+
+aa14-5:
+  title: Tallahassee, Perry, Quincy and Apalachicola, Florida
+  target: https://intergroup5.org
+
+aa14-6:
+  title: St Augustine and Hastings Beach, Florida
+  target: https://staugustineaa.org
+
+#aa14-7:  # 500 error
+#  title: Leesburg, Tavares and Bushnell, Florida
+#  target: https://aalakesumter.org
+
+aa14-8:
+  title: Volusia County, Florida
+  target: https://aadaytona.org
+
+aa14-9:
+  title: Central Florida
+  target: https://cflintergroup.org
+
+aa14-12:
+  title: Brevard, Florida
+  target: https://www.aaspacecoast.info
+
+aa14-13:
+  title: Hernando County, Florida
+  target: https://aahernando.org
+
+aa14-14:
+  title: North Central Florida
+  target: https://aagainesville.org
+
+aa14-15:
+  title: Titusville, Cocoa and N Mainland, Florida
+  target: https://district15aa.org
+
+aa14-16:
+  title: Columbia County, Florida
+  target: https://district16area14aa.org
+
+aa14-17:
+  title: Marion County, Florida
+  target: https://www.aaocalamarion.org
+
+aa14-22:
+  title: Flagler County, Florida
+  target: https://aaflagler.org
+
+aa14-27:
+  title: Dixie, Gilchrist and Levy Counties, Florida
+  target: https://district27aa.org
+
+aa14-28:
+  title: Citrus County, Florida
+  target: https://aadistrict28.org
+
+aa14-30:
+  title: Northern Southside Jax, Florida
+  target: https://neflaadistrict30.org
+
+aa14-31:
+  title: Osceola County, Florida
+  target: https://osceolacountyintergroup.org
+
+aa14-33:
+  title: Lingüístico Hispano, North Florida
+  target: http://www.aahispanos.org
+
+aa15:
+  title: South Florida/Bahamas/US V.I./Antigua
+  target: http://www.area15aa.org
+
+aa15-1:
+  title: Pinellas County, Florida
+  target: https://aapinellas.org
+
+aa15-2:
+  title: Tampa (Tri-County), Florida
+  target: https://aatampa-area.org
+
+aa15-3:
+  title: Heartland (Central Florida)
+  target: http://heartlandintergroup.org
+
+aa15-4:
+  title: Sarasota-Manatee Counties, Florida
+  target: https://www.aasrq.org
+
+aa15-5:
+  title: Southwest Florida
+  target: https://aadistrict5.org
+
+aa15-6a:
+  title: Martin County, Florida
+  target: https://martincountyaa.org
+
+aa15-6b:
+  title: Indian River County, Florida
+  target: https://indianriveraa.com
+
+aa15-6c:
+  title: St. Lucie County, Florida
+  target: https://aastlucieintergroup.com
+
+aa15-7:
+  title: Lee County Area, Florida
+  target: https://leecountyaa.org
+
+aa15-8a:
+  title: North Palm Beach, Florida
+  target: https://aa-palmbeachcounty.org
+
+aa15-8b:
+  title: South Palm Beach, Florida
+  target: https://www.aainpalmbeach.org
+
+aa15-9:
+  title: Broward County, Florida
+  target: https://aabroward.org
+
+aa15-10:
+  title: Miami and Dade, Florida
+  target: https://aamiamidade.org
+
+aa15-11:
+  title: Key West to Conch Key, Florida
+  target: http://www.aafloridakeys.org
+
+aa15-14:
+  title: US Virgin Islands
+  target: https://aavirginislands.org
+
+aa15-15:
+  title: West Pasco, Florida
+  target: https://www.aapasco.org
+
+aa15-16:
+  title: The Bahamas
+  target: http://www.bahamasaa.org
+
+aa15-19:
+  title: The Cayman Islands
+  target: https://caymanaa.org
+
+aa15-20:
+  title: Naples, Florida
+  target: https://district20aa.org
+
+aa16:
+  title: Georgia
+  target: http://www.aageorgia.org
+
+aa17:
+  title: Hawaii
+  target: http://www.area17aa.org
+
+aa18:
+  title: Idaho
+  target: http://www.idahoarea18aa.org
+
+aa18-v:
+  title: Treasure Valley, Idaho
+  target: https://tvico.net
+
+aa19:
+  title: Chicago Illinois
+  target: http://www.chicagoaa.org
+
+aa20:
+  title: Northern Illinois
+  target: http://www.aa-nia.org
+
+aa20-10:
+  title: Lake County Area, Illinois
+  target: https://district10nia.org
+
+aa20-11:
+  title: Crystal Lake, Illinois
+  target: https://aa-nia-dist11.org
+
+aa20-12:
+  title: Deerfield and Waukegan Area, Illinois
+  target: http://www.aadistrict12.com
+
+aa20-21:
+  title: Palatine, Rolling Meadows and Inverness, Illinois
+  target: https://www.aapalatine.org
+
+aa20-22:
+  title: Elgin, Carpentersville, East/West Dundee, Hampshire and Gilberts, Illinois
+  target: https://dist22.aa-nia.org
+
+aa20-23:
+  title: Bartlett, Hanover Park and Streamwood, Illinois
+  target: https://dist23-aa-nia.org
+
+aa20-28:
+  title: Barrington Area, Illinois
+  target: https://barringtonaa.org
+
+aa20-40:
+  title: Glen Ellyn, Wheaton and Warrenville, Illinois
+  target: http://www.aa-nia-dist40.org
+
+aa20-41:
+  title: Dupage County, Illinois
+  target: https://dupage41aa.org
+
+aa20-42:
+  title: Westmont Area, Illinois
+  target: https://aa-nia-dist42.us
+
+aa20-43:
+  title: Bolingbrook, Lisle and Naperville, Illinois
+  target: https://aa-nia-dist43.org
+
+aa20-51:
+  title: Will and Grundy Area, Illinois
+  target: https://aadistrict51.org
+
+aa20-52:
+  title: Kankakee, Illinois
+  target: https://www.kankakee-aa.org
+
+aa20-61:
+  title: Batavia, Elburn, Geneva, La Fox and St. Charles, Illinois
+  target: https://aadistrict61.org
+
+aa20-62:
+  title: Kendall County, Illinois
+  target: https://www.aadistrict62.org
+
+aa20-64:
+  title: Southern Fox Valley, Illinois
+  target: https://district64.com
+
+aa20-70:
+  title: Boone and Winnebago Counties, Illinois
+  target: https://district70aa.org
+
+aa20-71:
+  title: DeKalb Area, Illinois
+  target: http://www.aadistrict71.org
+
+aa20-72:
+  title: Jo Daviess, Stephenson and Carroll Counties, Illinois
+  target: https://aa-nwil.org
+
+aa20-73:
+  title: Ogle, Lee, Carroll, and Whiteside Counties
+  target: https://aa-nia-dist73.org
+
+aa20-90:
+  title: Quad Cities, Kewanee, Aledo, Illinois
+  target: http://www.aaquadcities.org
+
+aa21:
+  title: Southern Illinois
+  target: http://area21aa.org
+
+aa22:
+  title: Northern Indiana
+  target: http://www.area22indiana.org
+
+aa23:
+  title: Southern Indiana
+  target: http://www.area23aa.org
+
+aa24:
+  title: Iowa
+  target: http://www.aa-iowa.org
+
+aa25:
+  title: Kansas
+  target: https://ks-aa.org
+
+aa26:
+  title: Kentucky
+  target: http://www.area26.net
+
+aa27:
+  title: Louisiana
+  target: http://www.aa-louisiana.org
+
+aa28:
+  title: Maine
+  target: http://www.maineaa.org
+
+aa29:
+  title: Maryland
+  target: http://www.marylandaa.org
+
+aa30:
+  title: Eastern Massachusetts
+  target: http://www.aaemass.org
+
+aa31:
+  title: Western Massachusetts
+  target: http://www.area31aa.org
+
+aa32:
+  title: Central Michigan
+  target: http://www.cmia32.org
+
+aa33:
+  title: Southeastern Michigan
+  target: http://www.aa-semi.org
+
+aa34:
+  title: Western Michigan
+  target: http://area34aa.org
+
+aa35:
+  title: Northern Minnesota
+  target: http://www.area35.org
+
+aa36:
+  title: Southern Minnesota
+  target: http://www.area36.org
+
+aa37:
+  title: Mississippi
+  target: http://www.aa-mississippi.org
+
+aa38:
+  title: Eastern Missouri
+  target: http://www.eamo.org
+
+aa39:
+  title: Western Missouri
+  target: http://www.wamo-aa.org
+
+aa40:
+  title: Montana
+  target: http://www.aa-montana.org
+
+aa41:
+  title: Nebraska
+  target: http://www.area41.org
+
+aa42:
+  title: Nevada
+  target: http://www.nevadaarea42.org
+
+aa43:
+  title: New Hampshire
+  target: http://www.nhaa.net
+
+aa44:
+  title: Northern New Jersey
+  target: http://www.nnjaa.org
+
+aa45:
+  title: Southern New Jersey
+  target: http://www.snjaa.org
+
+aa46:
+  title: New Mexico
+  target: http://www.nm-aa.org
+
+aa47:
+  title: Central New York
+  target: http://www.aacny.org
+
+aa48:
+  title: NENY Area Association
+  target: http://www.aahmbny.org
+
+aa49:
+  title: Southeast New York
+  target: http://www.aaseny.org
+
+aa50:
+  title: Western New York
+  target: http://www.area50wny.org
+
+aa51:
+  title: North Carolina
+  target: http://www.aanorthcarolina.org
+
+aa52:
+  title: North Dakota
+  target: http://www.aanorthdakota.org
+
+aa53:
+  title: Central & Southeast Ohio
+  target: http://www.area53aa.org
+
+aa54:
+  title: Northeast Ohio
+  target: http://www.area54.org
+
+aa55:
+  title: Northwest Ohio
+  target: http://www.area55aa.org
+
+aa56:
+  title: Southwest Ohio
+  target: http://www.aaarea56.org
+
+aa56-12:
+  title: Hamilton, Fairfield, Oxford and surounding areas
+  target: https://aadistrict12and13.org
+
+aa57:
+  title: Oklahoma
+  target: http://www.aaoklahoma.org
+
+aa58:
+  title: Oregon
+  target: http://www.aa-oregon.org
+
+aa59:
+  title: Eastern Pennsylvania
+  target: http://www.area59aa.org
+
+aa59-48:
+  title: Greater Williamsport Area
+  target: recoverysource-sites.github.io
+
+aa60:
+  title: Western Pennsylvania
+  target: http://www.wpaarea60.org
+
+aa61:
+  title: Rhode Island
+  target: http://www.rhodeisland-aa.org
+
+aa62:
+  title: South Carolina
+  target: http://www.area62.org
+
+aa63:
+  title: South Dakota
+  target: http://www.area63aa.org
+
+aa63-5:
+  title: Sioux Falls Area
+  target: https://siouxfallsaa.org
+
+aa64:
+  title: Tennessee
+  target: http://www.area64assembly.org
+
+aa65:
+  title: Northeast Texas
+  target: http://www.neta65.org
+
+aa66:
+  title: Northwest Texas
+  target: http://www.nwta66.org
+
+aa67:
+  title: Southeast Texas
+  target: http://www.aa-seta.org
+
+aa68:
+  title: Southwest Texas
+  target: http://www.aa-swta.org
+
+aa69:
+  title: Utah
+  target: http://www.aaofutah.org
+
+aa70:
+  title: Vermont
+  target: http://www.aavt.org
+
+aa71:
+  title: Virginia
+  target: http://www.aavirginia.org
+
+aa72:
+  title: Western Washington Area
+  target: http://www.area72aa.org
+
+aa73:
+  title: West Virginia
+  target: http://www.aawv.org
+
+aa74:
+  title: N. Wisc./Upper Peninsula Mi.
+  target: http://www.area74.org
+
+aa75:
+  title: Southern Wisconsin
+  target: http://www.area75.org
+
+aa76:
+  title: Wyoming
+  target: https://www.wyomingaa.org
+
+aa77:
+  title: Puerto Rico
+  target: http://www.pr-area77.org
+
+aa92:
+  title: Washington State East
+  target: http://www.area92aa.org
+
+aa93:
+  title: Central California
+  target: http://www.area93.org
+
+##
+# Canada
+##
+
+
+aa78:
+  title: Alberta/N.W. Territories
+  target: http://www.area78.org
+
+aa79:
+  title: British Columbia/Yukon
+  target: http://www.bcyukonaa.org
+
+aa80:
+  title: Manitoba
+  target: http://www.aamanitoba.org
+
+aa81:
+  title: New Brunswick/Prince Edw Isl.
+  target: http://www.area81aa.ca
+
+aa82:
+  title: Nova Scotia/Nfld/Lab
+  target: http://www.area82aa.org
+
+aa83:
+  title: Eastern Ontario
+  target: http://www.area83aa.org
+
+aa84:
+  title: Northeast Ontario
+  target: http://www.area84aa.org
+
+aa85:
+  title: Northwest Ontario
+  target: http://www.aa-nwo-area85.org
+
+aa86:
+  title: Western Ontario
+  target: http://www.area86aa.org
+
+aa87:
+  title: Southwest Quebec
+  target: http://www.aa87.org
+
+aa88:
+  title: Southeast Quebec
+  target: https://aaregion88.org
+
+aa89:
+  title: Northeast Quebec
+  target: https://aa89.org
+
+aa90:
+  title: Northwest Quebec
+  target: https://aaregion90.org
+
+aa91:
+  title: Saskatchewan
+  target: http://www.aasask.org

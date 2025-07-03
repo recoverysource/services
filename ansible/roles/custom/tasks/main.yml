@@ -1,0 +1,4 @@
+- name: Run extra tasks for "service" hosts
+  ansible.builtin.include_tasks:
+    file: service.yml
+  when: "'service' in ansible_hostname"

@@ -1,0 +1,5 @@
+common_name_auditd: audit
+common_name_pam: pam
+common_path_chrony: /etc/chrony.conf
+common_path_nftables: /etc/nftables/main.nft
+common_path_vimrc: /etc/vimrc

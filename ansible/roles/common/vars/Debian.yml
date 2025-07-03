@@ -1,0 +1,5 @@
+common_name_auditd: auditd
+common_name_pam: libpam-runtime
+common_path_chrony: /etc/chrony/chrony.conf
+common_path_nftables: /etc/nftables.conf
+common_path_vimrc: /etc/vim/vimrc.local

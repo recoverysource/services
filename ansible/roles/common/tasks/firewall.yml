@@ -1,0 +1,24 @@
+##
+# NFTables
+##
+
+- name: Ensure nftables is installed
+  ansible.builtin.package:
+    name: nftables
+    state: present
+
+- name: Manage nftables configuration (debian)
+  ansible.builtin.copy:
+    src: nftables.conf
+    dest: "{{ common_path_nftables }}"
+    mode: "0640"
+  notify: reload-nft
+
+##
+# Fail2Ban
+##
+
+- name: Include fail2ban on Debian-based hosts
+  ansible.builtin.include_tasks:
+    file: fail2ban.yml
+  when: ansible_os_family == "Debian"

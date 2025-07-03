@@ -1,0 +1,10 @@
+# Base Image
+ARG TEST_IMAGE=docker.io/rockylinux/rockylinux:10
+FROM ${TEST_IMAGE} AS base
+
+# Update OS Software
+RUN dnf upgrade -y
+
+# Install Test Dependencies
+RUN dnf install -y ansible-core python3-pip python3-distro
+RUN pip3 install pytest pytest-testinfra 2>/dev/null  # Do not pip as root in production

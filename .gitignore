@@ -1,0 +1,15 @@
+# Hugo
+.hugo_build.lock
+/web_index/resources
+/web_index/site
+
+# Ansible
+.vaultpass
+
+# Python
+*.py[cod]
+__pycache__
+.pytest_cache/
+
+# ./sync
+_workspace/

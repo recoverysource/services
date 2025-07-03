@@ -1,0 +1,9 @@
+# Base Image
+ARG TEST_IMAGE=docker.io/debian:12
+FROM ${TEST_IMAGE} AS base
+
+# Update OS Software
+RUN apt-get update && apt full-upgrade -y
+
+# Install Test Dependencies
+RUN apt-get install -y systemd ansible-core python3-testinfra python3-distro

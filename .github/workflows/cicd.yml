@@ -1,0 +1,127 @@
+name: CI/CD
+##
+# This github workflow is used to run tests on all commits to the develop branch
+# to verify all basic processes function correctly.
+##
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+
+  lint:
+    name: Lint Checks
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Shellcheck
+      # Looks for +x files
+      - name: ShellCheck
+        uses: ludeeus/action-shellcheck@master
+        # with:
+        #   ignore_names: '10_linux'
+        env:
+          SHELLCHECK_OPTS: -e SC1091
+
+      # Ansible Lint
+      - name: Run ansible-lint
+        uses: ansible/ansible-lint@main
+        with:
+          working_directory: "test"
+
+      # Python Lint
+      - name: Set Up Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Flake8 Lint
+        uses: py-actions/flake8@v2
+        with:
+          ignore: 'E123,E126,E501,W503,F824'
+
+  container:
+    name: Ansible Tests
+    needs: [lint]
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: ['debian', 'ubuntu', 'rocky']
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Dependencies
+        run: |
+            sudo apt-get update
+            sudo apt-get install make podman
+
+      - name: Run Container Tests
+        id: validation_tests
+        run: make test-${{ matrix.os }}
+
+  web_index:
+    name: Web Index
+    needs: [lint]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+
+      #- name: Pull Submodules (themes)
+      #  run: git submodule update --init --recursive
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: latest
+
+      - name: Build Site
+        run: make web_index/site
+
+      - name: Publish Site
+        uses: peaceiris/actions-gh-pages@v3
+        if: ${{ github.ref == 'refs/heads/master' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web_index/site
+
+
+  ##
+  # Merge master into release after tests pass
+  # NOTE: From this point forward, a force push is non-trivial!
+  ##
+
+  deploy:
+    name: Server Release
+    needs: [lint, container, web_index]
+    if: github.ref == 'refs/heads/master'
+
+    permissions:
+      pull-requests: write
+      contents: write
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: '0'
+          ref: release
+
+      - name: Merge Changes
+        run: |
+            git config --local user.email "actions@github.com"
+            git config --local user.name "Github Actions"
+            git merge --no-ff "${{ github.sha }}" -m "[CICD-Pass] Merge ${{ github.sha }} into release"
+
+      # CICD: master->release
+      - name: Go Live!
+        run: |
+            git push origin release

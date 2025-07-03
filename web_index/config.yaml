@@ -1,0 +1,16 @@
+dataDir: ../data
+baseURL: https://about.sober.page/
+title: Sober Page
+
+languageCode: en-us
+theme: [aamod, mainroad]
+
+Params:
+  description: Index of 12-step Websites
+  source: https://github.com/recoverysource/sober.page
+  copyright: Recovery Source
+  logo:
+    image: img/AAlogo.webp
+    title: Sober Page
+    subtitle: Sober Support Group Index
+  toc: true

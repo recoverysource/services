@@ -1,0 +1,4 @@
+{{- $padSize := 7 }}
+{{- $paddedString := replaceRE "(\\d+)" (print (strings.Repeat (sub $padSize 1) "0") "$1") . }}
+{{- $trimmedString := replaceRE (print "0+(\\d{" $padSize "})") "$1" $paddedString }}
+{{- return $trimmedString }}
