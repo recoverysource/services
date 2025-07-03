@@ -1,0 +1,2565 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>About on Sober Page</title><link>https://about.sober.page/</link><description>Recent content in About on Sober Page</description><generator>Hugo</generator><language>en-us</language><atom:link href="https://about.sober.page/index.xml" rel="self" type="application/rss+xml"/><item><title>Alcoholics Anonymous</title><link>https://about.sober.page/aa/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://about.sober.page/aa/</guid><description>&lt;p>The index of &lt;strong>support group websites for Alcoholics Anonymous:&lt;/strong> &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Subdomains can be accessed using &lt;code>https://[subdomain].sober.page&lt;/code> &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>Please create a &lt;a href="https://github.com/recoverysource/sober.page/issues/new/choose">&amp;ldquo;Link Update&amp;rdquo; request&lt;/a>
+if you find any errors on this page!&lt;/p>
+&lt;style>
+ 
+.search-bar {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ background-color: #f2f2f2;
+ border: 1px solid #ccc;
+ padding: 10px;
+ border-radius: 5px;
+ margin-bottom: 20px;
+}
+
+ 
+.filter-group {
+ display: flex;
+ flex-basis: calc(100% - 7em);
+ align-items: center;
+ margin-right: 20px;
+}
+
+ 
+.filter-option {
+ padding: 5px;
+ border: 1px solid #ccc;
+ border-radius: 3px;
+ background-color: white;
+ font-size: 14px;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], input[type="url"] {
+ width: 100%;
+}
+
+ 
+#reset-filters {
+ font-weight: bold;
+ background-color: #0060ae;
+ color: #fff;
+ padding: 5px 10px;
+ border: none;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+}
+
+#reset-filters:hover {
+ background-color: #007bff;
+}
+
+ 
+.expand-button {
+ font-weight: bold;
+ font-size: 14px;
+ background-color: #0060ae;
+ color: #fff;
+ border: none;
+ transition: background-color 0.3s;
+ 
+ border-radius: 50%;
+}
+
+.expand-button:hover {
+ background-color: #007bff;
+}
+
+ 
+.col-1 {
+ width: 120px;
+}
+
+.col-3 {
+ width: 200px;
+}
+
+ 
+.sortable {
+ cursor: pointer;
+ position: relative;
+}
+
+.sortable::before {
+ content: "";
+ display: inline-block;
+ width: 0;
+ height: 0;
+ border-left: 5px solid transparent;
+ border-right: 5px solid transparent;
+ position: absolute;
+ right: 5px;
+}
+
+.sort-asc::before {
+ border-bottom: 5px solid black;
+}
+
+.sort-desc::before {
+ border-top: 5px solid black;
+}
+
+.infobutton {
+ float: right;
+}
+
+.infobutton button {
+ width: 1.7em;
+ margin: 0;
+ padding: 0;
+}
+
+.keywords {
+ font-style: italic;
+}
+&lt;/style>
+
+&lt;div id="filter-menu" class="search-bar">
+ &lt;noscript>Filters require javascript!&lt;/noscript>
+ &lt;div class="filter-group">
+ &lt;input id="search-filter" class="filter-option" type="text" placeholder="Filter" />
+ &lt;/div>
+ &lt;button id="reset-filters">Reset&lt;/button>
+&lt;/div>
+&lt;table id="searchable-table">
+ &lt;colgroup>
+ &lt;col class="col-1">
+ &lt;col class="col-2">
+ &lt;col class="col-3">
+ &lt;/colgroup>
+ &lt;thead>
+ &lt;tr>
+ &lt;th class="sortable">Subdomain&lt;/th>
+ &lt;th class="sortable">Title&lt;/th>
+ &lt;th class="sortable">Website&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr class="searchable-row" data-searchable="aa1 alabama/n.w. florida http://www.aaarea1.org ">
+ &lt;td>&lt;a href="https://aa1.sober.page">aa1&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Alabama/N.W. Florida&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaarea1.org">http://aaarea1.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-1 shoals area (n.w. alabama) https://www.shoalsaa.org florence, lexington, moulton, red bay, rogersville, russellville &amp;amp; sheffield, colbert, franklin, lauderdale &amp;amp; lawrence counties, alabama and belmont, mississippi">
+ &lt;td>&lt;a href="https://aa1-1.sober.page">aa1-1&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Shoals Area (N.W. Alabama)&lt;/td>
+ &lt;td>&lt;a href="https://www.shoalsaa.org">https://shoalsaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Florence, Lexington, Moulton, Red Bay, Rogersville, Russellville &amp;amp; Sheffield, Colbert, Franklin, Lauderdale &amp;amp; Lawrence Counties, Alabama and Belmont, Mississippi&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-2 hartselle, cullman, and blountsville, alabama https://the12traditions.com allgood, blountsville, cullman, eva, hartselle">
+ &lt;td>&lt;a href="https://aa1-2.sober.page">aa1-2&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Hartselle, Cullman, and Blountsville, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://the12traditions.com">https://the12traditions.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-2" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Allgood, Blountsville, Cullman, Eva, Hartselle&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-3 dekalb, jackson and marshall counties, (northeast) alabama https://aaarea1dist3.org albertville, arab, douglas, guntersville, henagar, rainsville, &amp;amp; scottsboro. dekalb county, jackson county, marshall county">
+ &lt;td>&lt;a href="https://aa1-3.sober.page">aa1-3&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Dekalb, Jackson and Marshall Counties, (Northeast) Alabama&lt;/td>
+ &lt;td>&lt;a href="https://aaarea1dist3.org">https://aaarea1dist3.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-3" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Albertville, Arab, Douglas, Guntersville, Henagar, Rainsville, &amp;amp; Scottsboro. Dekalb County, Jackson County, Marshall County&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-4 coosa valley, alabama https://coosavalleyaa.org calhoun, cherokee, clay, cleburne, etowah, randolph, st. clair, talladega">
+ &lt;td>&lt;a href="https://aa1-4.sober.page">aa1-4&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Coosa Valley, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://coosavalleyaa.org">https://coosavalleyaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Calhoun, Cherokee, Clay, Cleburne, Etowah, Randolph, St. Clair, Talladega&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-5 west alabama https://westalaa.org fayette, haleyville, hamilton, jasper, tuscaloosa, vernon, winfield">
+ &lt;td>&lt;a href="https://aa1-5.sober.page">aa1-5&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>West Alabama&lt;/td>
+ &lt;td>&lt;a href="https://westalaa.org">https://westalaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Fayette, Haleyville, Hamilton, Jasper, Tuscaloosa, Vernon, Winfield&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-6 birmingham, alabama https://birminghamaa.org adamsville, alabaster, bessemer, birmingham, calera, center point, dolomite, homewood, hoover, hueytown, leeds, montevallo, morris, mountain brook, pelham, trussville, vestavia hills, &amp;amp; warrior">
+ &lt;td>&lt;a href="https://aa1-6.sober.page">aa1-6&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Birmingham, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://birminghamaa.org">https://birminghamaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Adamsville, Alabaster, Bessemer, Birmingham, Calera, Center Point, Dolomite, Homewood, Hoover, Hueytown, Leeds, Montevallo, Morris, Mountain Brook, Pelham, Trussville, Vestavia Hills, &amp;amp; Warrior&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-8 central alabama https://centralalaa.org clanton, greenville, maplesville, millbrook, montgomery, prattville, selma, slapout, tallassee, thorsby, union springs, wetumpka, montgomery">
+ &lt;td>&lt;a href="https://aa1-8.sober.page">aa1-8&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Central Alabama&lt;/td>
+ &lt;td>&lt;a href="https://centralalaa.org">https://centralalaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-8" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Clanton, Greenville, Maplesville, Millbrook, Montgomery, Prattville, Selma, Slapout, Tallassee, Thorsby, Union Springs, Wetumpka, Montgomery&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-9 east central alabama https://aaauburn.org alexander city, auburn, dadeville, lanett, opelika, phenix city, roanoke, shorter, tuskegee">
+ &lt;td>&lt;a href="https://aa1-9.sober.page">aa1-9&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>East Central Alabama&lt;/td>
+ &lt;td>&lt;a href="https://aaauburn.org">https://aaauburn.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Alexander City, Auburn, Dadeville, Lanett, Opelika, Phenix City, Roanoke, Shorter, Tuskegee&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-10 dothan area, alabama http://www.aadothan.org ashford, dothan, eufaula, headland">
+ &lt;td>&lt;a href="https://aa1-10.sober.page">aa1-10&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Dothan Area, Alabama&lt;/td>
+ &lt;td>&lt;a href="http://www.aadothan.org">http://aadothan.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-10" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Ashford, Dothan, Eufaula, Headland&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-11 andalusia, elba, enterprise, florala, level plains, luverne, opp, ozark and troy, alabama https://district11aa.com andalusia, daleville, enterprise, level plains, opp, ozark and troy. crenshaw county, coffee county, covington county, dale county, pike county">
+ &lt;td>&lt;a href="https://aa1-11.sober.page">aa1-11&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Andalusia, Elba, Enterprise, Florala, Level Plains, Luverne, Opp, Ozark and Troy, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://district11aa.com">https://district11aa.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-11" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Andalusia, Daleville, Enterprise, Level Plains, Opp, Ozark and Troy. Crenshaw County, Coffee County, Covington County, Dale County, Pike County&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-12 mobile, washington and choctaw counties, alabama https://mobileaa.org butler, chatom, chickasaw, citronelle, dauphin island, frisco city, grove hill, jackson, mobile, monroeville, saraland, semmes, seton, theodore. choctaw county, clarke county, mobile county, monroe county, washington county">
+ &lt;td>&lt;a href="https://aa1-12.sober.page">aa1-12&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Mobile, Washington and Choctaw Counties, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://mobileaa.org">https://mobileaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Butler, Chatom, Chickasaw, Citronelle, Dauphin Island, Frisco City, Grove Hill, Jackson, Mobile, Monroeville, Saraland, Semmes, Seton, Theodore. Choctaw County, Clarke County, Mobile County, Monroe County, Washington County&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-13 northwest florida tri-district area https://aapensacola.org tri-district intergroup, navarre, florida, alabama state line, escambia county, santa rosa county">
+ &lt;td>&lt;a href="https://aa1-13.sober.page">aa1-13&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Northwest Florida Tri-District Area&lt;/td>
+ &lt;td>&lt;a href="https://aapensacola.org">https://aapensacola.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-13" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Tri-District Intergroup, Navarre, Florida, Alabama state line, Escambia County, Santa Rosa County&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-14 okaloosa and walton counties, alabama https://www.fortwaltonbeachaa.org fort walton beach, destin, crestview, niceville; valparaiso. okaloosa, and walton counties">
+ &lt;td>&lt;a href="https://aa1-14.sober.page">aa1-14&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Okaloosa and Walton Counties, Alabama&lt;/td>
+ &lt;td>&lt;a href="https://www.fortwaltonbeachaa.org">https://fortwaltonbeachaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-14" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Fort Walton Beach, Destin, Crestview, Niceville; Valparaiso. Okaloosa, and Walton Counties&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-15 panama city, florida http://www.panamacityaa.org panama city, panama city beach, lynn haven, mexico beach and wewahitchka">
+ &lt;td>&lt;a href="https://aa1-15.sober.page">aa1-15&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Panama City, Florida&lt;/td>
+ &lt;td>&lt;a href="http://www.panamacityaa.org">http://panamacityaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-15" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Panama City, Panama City Beach, Lynn Haven, Mexico Beach and Wewahitchka&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-16 northwest florida https://aa-area1dist16.org calhoun, holmes, jackson, and washington counties">
+ &lt;td>&lt;a href="https://aa1-16.sober.page">aa1-16&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Northwest Florida&lt;/td>
+ &lt;td>&lt;a href="https://aa-area1dist16.org">https://aa-area1dist16.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-16" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Calhoun, Holmes, Jackson, and Washington Counties&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-19 gulf coast, florida https://gulfcoastaa.org central and south baldwin counties, gulf shores, orange beach and foley">
+ &lt;td>&lt;a href="https://aa1-19.sober.page">aa1-19&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Gulf Coast, Florida&lt;/td>
+ &lt;td>&lt;a href="https://gulfcoastaa.org">https://gulfcoastaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-19" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Central and South Baldwin Counties, Gulf Shores, Orange Beach and Foley&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-20 huntsville, florida https://aahuntsvilleal.com athens, decatur, huntsville, madison and morgan city">
+ &lt;td>&lt;a href="https://aa1-20.sober.page">aa1-20&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Huntsville, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aahuntsvilleal.com">https://aahuntsvilleal.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-20" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Athens, Decatur, Huntsville, Madison and Morgan City&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-23 eastern shore baldwin county, florida https://easternshoreaa.org bay minette, daphne, fairhope, spanish fort, eastern shore, baldwin county">
+ &lt;td>&lt;a href="https://aa1-23.sober.page">aa1-23&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Eastern Shore Baldwin County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://easternshoreaa.org">https://easternshoreaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-23" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Bay Minette, Daphne, Fairhope, Spanish Fort, Eastern Shore, Baldwin County&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa1-es spanish meetings in alabama/n.w. florida ">
+ &lt;td>&lt;a href="https://aa1-es.sober.page">aa1-es&lt;/a>&lt;/td>
+ &lt;td>Spanish Meetings in Alabama/N.W. Florida&lt;/td>
+ &lt;td>&lt;a href="https://aa1-es.sober.page">https://aa1-es.sober.page&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa1-es" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2 alaska http://www.area02alaska.org ">
+ &lt;td>&lt;a href="https://aa2.sober.page">aa2&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Alaska&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area02alaska.org">http://area02alaska.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-a anchorage area intergroup https://anchorageaa.org ">
+ &lt;td>&lt;a href="https://aa2-a.sober.page">aa2-a&lt;/a>&lt;/td>
+ &lt;td>Anchorage Area Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://anchorageaa.org">https://anchorageaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-a" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-f fairbanks intergroup https://www.fairbanksaa.org/ ">
+ &lt;td>&lt;a href="https://aa2-f.sober.page">aa2-f&lt;/a>&lt;/td>
+ &lt;td>Fairbanks Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://www.fairbanksaa.org/">https://fairbanksaa.org/&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-f" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-j juneau intergroup https://aajuneauak.org ">
+ &lt;td>&lt;a href="https://aa2-j.sober.page">aa2-j&lt;/a>&lt;/td>
+ &lt;td>Juneau Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://aajuneauak.org">https://aajuneauak.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-j" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-k kenai peninsula intergroup https://aakenaipeninsula.org ">
+ &lt;td>&lt;a href="https://aa2-k.sober.page">aa2-k&lt;/a>&lt;/td>
+ &lt;td>Kenai Peninsula Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://aakenaipeninsula.org">https://aakenaipeninsula.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-k" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-m mat-su valley intergroup https://www.alaskamatsuaa.org/ ">
+ &lt;td>&lt;a href="https://aa2-m.sober.page">aa2-m&lt;/a>&lt;/td>
+ &lt;td>Mat-Su Valley Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://www.alaskamatsuaa.org/">https://alaskamatsuaa.org/&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-m" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa2-s sitka intergroup https://www.sitkaintergroup.org ">
+ &lt;td>&lt;a href="https://aa2-s.sober.page">aa2-s&lt;/a>&lt;/td>
+ &lt;td>Sitka Intergroup&lt;/td>
+ &lt;td>&lt;a href="https://www.sitkaintergroup.org">https://sitkaintergroup.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa2-s" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa3 arizona http://www.area03.org ">
+ &lt;td>&lt;a href="https://aa3.sober.page">aa3&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Arizona&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area03.org">http://area03.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa3" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4 arkansas http://www.arkansasaa.org ">
+ &lt;td>&lt;a href="https://aa4.sober.page">aa4&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Arkansas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.arkansasaa.org">http://arkansasaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4-1 northwest arkansas https://www.nwarkaa.org bella vista, bentonville, elkins, eureka, springs, farmington, fayetteville, gravette, harrison, huntsville, pea ridge, prairie grove, rogers, siloam springs, springdale, tontitown, west fork">
+ &lt;td>&lt;a href="https://aa4-1.sober.page">aa4-1&lt;/a>&lt;span class="infobutton">&lt;button title="Show/Hide additional website keywords" class="expand-button">+&lt;/button>&lt;/span>&lt;/td>
+ &lt;td>Northwest Arkansas&lt;/td>
+ &lt;td>&lt;a href="https://www.nwarkaa.org">https://nwarkaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">Bella Vista, Bentonville, Elkins, Eureka, Springs, Farmington, Fayetteville, Gravette, Harrison, Huntsville, Pea Ridge, Prairie Grove, Rogers, Siloam Springs, Springdale, Tontitown, West Fork&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4-4 fort smith area, arkansas https://aafsig.org ">
+ &lt;td>&lt;a href="https://aa4-4.sober.page">aa4-4&lt;/a>&lt;/td>
+ &lt;td>Fort Smith Area, Arkansas&lt;/td>
+ &lt;td>&lt;a href="https://aafsig.org">https://aafsig.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4-4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4-6 independence, cleburne, jackson, woodruff and white counties, arkansas https://araadist6.org ">
+ &lt;td>&lt;a href="https://aa4-6.sober.page">aa4-6&lt;/a>&lt;/td>
+ &lt;td>Independence, Cleburne, Jackson, Woodruff and White Counties, Arkansas&lt;/td>
+ &lt;td>&lt;a href="https://araadist6.org">https://araadist6.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4-6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4-8 west central arkansas https://www.aawcar.org ">
+ &lt;td>&lt;a href="https://aa4-8.sober.page">aa4-8&lt;/a>&lt;/td>
+ &lt;td>West Central Arkansas&lt;/td>
+ &lt;td>&lt;a href="https://www.aawcar.org">https://aawcar.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4-8" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa4-13 lingüistico arkansas https://distrito13arkansas.com ">
+ &lt;td>&lt;a href="https://aa4-13.sober.page">aa4-13&lt;/a>&lt;/td>
+ &lt;td>Lingüistico Arkansas&lt;/td>
+ &lt;td>&lt;a href="https://distrito13arkansas.com">https://distrito13arkansas.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa4-13" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5 southern california http://www.area05aa.org ">
+ &lt;td>&lt;a href="https://aa5.sober.page">aa5&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area05aa.org">http://area05aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-18 whittier, la habra, la mirada, hacienda heights, california http://aadistrict18.com ">
+ &lt;td>&lt;a href="https://aa5-18.sober.page">aa5-18&lt;/a>&lt;/td>
+ &lt;td>Whittier, La Habra, La Mirada, Hacienda Heights, California&lt;/td>
+ &lt;td>&lt;a href="http://aadistrict18.com">http://aadistrict18.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-18" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-30 montclair area, california https://aa-scaa-district30.org ">
+ &lt;td>&lt;a href="https://aa5-30.sober.page">aa5-30&lt;/a>&lt;/td>
+ &lt;td>Montclair Area, California&lt;/td>
+ &lt;td>&lt;a href="https://aa-scaa-district30.org">https://aa-scaa-district30.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-30" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-34 hispano de pomona, california https://www.aadistrito34.org ">
+ &lt;td>&lt;a href="https://aa5-34.sober.page">aa5-34&lt;/a>&lt;/td>
+ &lt;td>Hispano de Pomona, California&lt;/td>
+ &lt;td>&lt;a href="https://www.aadistrito34.org">https://aadistrito34.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-34" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-35 valle de san gabriel california https://www.distrito35aa.org ">
+ &lt;td>&lt;a href="https://aa5-35.sober.page">aa5-35&lt;/a>&lt;/td>
+ &lt;td>Valle de San Gabriel California&lt;/td>
+ &lt;td>&lt;a href="https://www.distrito35aa.org">https://distrito35aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-35" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-49 región del pacifico, california https://aadistrito49.org ">
+ &lt;td>&lt;a href="https://aa5-49.sober.page">aa5-49&lt;/a>&lt;/td>
+ &lt;td>Región Del Pacifico, California&lt;/td>
+ &lt;td>&lt;a href="https://aadistrito49.org">https://aadistrito49.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-49" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-50 altadena, pasadena y highland park, california https://aadistrito50.info ">
+ &lt;td>&lt;a href="https://aa5-50.sober.page">aa5-50&lt;/a>&lt;/td>
+ &lt;td>Altadena, Pasadena y Highland Park, California&lt;/td>
+ &lt;td>&lt;a href="https://aadistrito50.info">https://aadistrito50.info&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-50" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-55 hispano de broadway ave, california https://www.aadistrito55.org ">
+ &lt;td>&lt;a href="https://aa5-55.sober.page">aa5-55&lt;/a>&lt;/td>
+ &lt;td>Hispano de Broadway Ave, California&lt;/td>
+ &lt;td>&lt;a href="https://www.aadistrito55.org">https://aadistrito55.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-55" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-es-la hispano de los angeles https://hispanaaala.org/ ">
+ &lt;td>&lt;a href="https://aa5-es-la.sober.page">aa5-es-la&lt;/a>&lt;/td>
+ &lt;td>Hispano de Los Angeles&lt;/td>
+ &lt;td>&lt;a href="https://hispanaaala.org/">https://hispanaaala.org/&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-es-la" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-la los angeles https://lacoaa.org ">
+ &lt;td>&lt;a href="https://aa5-la.sober.page">aa5-la&lt;/a>&lt;/td>
+ &lt;td>Los Angeles&lt;/td>
+ &lt;td>&lt;a href="https://lacoaa.org">https://lacoaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-la" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa5-wcd west combined districts, california https://www.westsidedistricts.org ">
+ &lt;td>&lt;a href="https://aa5-wcd.sober.page">aa5-wcd&lt;/a>&lt;/td>
+ &lt;td>West Combined Districts, California&lt;/td>
+ &lt;td>&lt;a href="https://www.westsidedistricts.org">https://westsidedistricts.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa5-wcd" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6 northern coastal california http://www.cnca06.org ">
+ &lt;td>&lt;a href="https://aa6.sober.page">aa6&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern Coastal California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.cnca06.org">http://cnca06.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-1 monterey bay, calidornia https://www.aamonterey.org ">
+ &lt;td>&lt;a href="https://aa6-1.sober.page">aa6-1&lt;/a>&lt;/td>
+ &lt;td>Monterey Bay, Calidornia&lt;/td>
+ &lt;td>&lt;a href="https://www.aamonterey.org">https://aamonterey.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-2 salinas valley, california https://aasalinas.org ">
+ &lt;td>&lt;a href="https://aa6-2.sober.page">aa6-2&lt;/a>&lt;/td>
+ &lt;td>Salinas Valley, California&lt;/td>
+ &lt;td>&lt;a href="https://aasalinas.org">https://aasalinas.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-2" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-3 santa cruz county, california https://aasantacruz.org ">
+ &lt;td>&lt;a href="https://aa6-3.sober.page">aa6-3&lt;/a>&lt;/td>
+ &lt;td>Santa Cruz County, California&lt;/td>
+ &lt;td>&lt;a href="https://aasantacruz.org">https://aasantacruz.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-3" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-4 santa clara county, california https://aasanjose.org ">
+ &lt;td>&lt;a href="https://aa6-4.sober.page">aa6-4&lt;/a>&lt;/td>
+ &lt;td>Santa Clara County, California&lt;/td>
+ &lt;td>&lt;a href="https://aasanjose.org">https://aasanjose.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-5 san mateo county, california https://aa-san-mateo.org ">
+ &lt;td>&lt;a href="https://aa6-5.sober.page">aa6-5&lt;/a>&lt;/td>
+ &lt;td>San Mateo County, California&lt;/td>
+ &lt;td>&lt;a href="https://aa-san-mateo.org">https://aa-san-mateo.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-6 san fransisco and marin, california https://aasfmarin.org ">
+ &lt;td>&lt;a href="https://aa6-6.sober.page">aa6-6&lt;/a>&lt;/td>
+ &lt;td>San Fransisco and Marin, California&lt;/td>
+ &lt;td>&lt;a href="https://aasfmarin.org">https://aasfmarin.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-7 east bay, california https://eastbayaa.org ">
+ &lt;td>&lt;a href="https://aa6-7.sober.page">aa6-7&lt;/a>&lt;/td>
+ &lt;td>East Bay, California&lt;/td>
+ &lt;td>&lt;a href="https://eastbayaa.org">https://eastbayaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-7" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-8 contra costa, california https://contracostaaa.org ">
+ &lt;td>&lt;a href="https://aa6-8.sober.page">aa6-8&lt;/a>&lt;/td>
+ &lt;td>Contra Costa, California&lt;/td>
+ &lt;td>&lt;a href="https://contracostaaa.org">https://contracostaaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-8" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-9 solano south, california https://aasolanosouth.org ">
+ &lt;td>&lt;a href="https://aa6-9.sober.page">aa6-9&lt;/a>&lt;/td>
+ &lt;td>Solano South, California&lt;/td>
+ &lt;td>&lt;a href="https://aasolanosouth.org">https://aasolanosouth.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-10 san fransisco and marin, california https://aasfmarin.org ">
+ &lt;td>&lt;a href="https://aa6-10.sober.page">aa6-10&lt;/a>&lt;/td>
+ &lt;td>San Fransisco and Marin, California&lt;/td>
+ &lt;td>&lt;a href="https://aasfmarin.org">https://aasfmarin.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-10" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-11 napa valley, california https://aanapa.org ">
+ &lt;td>&lt;a href="https://aa6-11.sober.page">aa6-11&lt;/a>&lt;/td>
+ &lt;td>Napa Valley, California&lt;/td>
+ &lt;td>&lt;a href="https://aanapa.org">https://aanapa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-11" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-12 sonoma county, california https://www.sonomacountyaa.org ">
+ &lt;td>&lt;a href="https://aa6-12.sober.page">aa6-12&lt;/a>&lt;/td>
+ &lt;td>Sonoma County, California&lt;/td>
+ &lt;td>&lt;a href="https://www.sonomacountyaa.org">https://sonomacountyaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-13 lake county, california https://lakecountycaaa.com ">
+ &lt;td>&lt;a href="https://aa6-13.sober.page">aa6-13&lt;/a>&lt;/td>
+ &lt;td>Lake County, California&lt;/td>
+ &lt;td>&lt;a href="https://lakecountycaaa.com">https://lakecountycaaa.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-13" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-14 mendocino coast, california https://mendocinocoastaa.com ">
+ &lt;td>&lt;a href="https://aa6-14.sober.page">aa6-14&lt;/a>&lt;/td>
+ &lt;td>Mendocino Coast, California&lt;/td>
+ &lt;td>&lt;a href="https://mendocinocoastaa.com">https://mendocinocoastaa.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-14" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-15 humboldt and del norte counties, california https://aahumboldtdelnorte.org ">
+ &lt;td>&lt;a href="https://aa6-15.sober.page">aa6-15&lt;/a>&lt;/td>
+ &lt;td>Humboldt and Del Norte Counties, California&lt;/td>
+ &lt;td>&lt;a href="https://aahumboldtdelnorte.org">https://aahumboldtdelnorte.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-15" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-17 hispana del condado de san mateo, california https://aaespanolsanmateoca.com ">
+ &lt;td>&lt;a href="https://aa6-17.sober.page">aa6-17&lt;/a>&lt;/td>
+ &lt;td>Hispana del Condado de San Mateo, California&lt;/td>
+ &lt;td>&lt;a href="https://aaespanolsanmateoca.com">https://aaespanolsanmateoca.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-17" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-70 trivalley, california https://valleyservicecenteraa.org ">
+ &lt;td>&lt;a href="https://aa6-70.sober.page">aa6-70&lt;/a>&lt;/td>
+ &lt;td>TriValley, California&lt;/td>
+ &lt;td>&lt;a href="https://valleyservicecenteraa.org">https://valleyservicecenteraa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-70" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa6-90 north solano, california https://aasolanonorth.org ">
+ &lt;td>&lt;a href="https://aa6-90.sober.page">aa6-90&lt;/a>&lt;/td>
+ &lt;td>North Solano, California&lt;/td>
+ &lt;td>&lt;a href="https://aasolanonorth.org">https://aasolanonorth.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa6-90" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7 northern interior california http://www.cnia.org ">
+ &lt;td>&lt;a href="https://aa7.sober.page">aa7&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern Interior California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.cnia.org">http://cnia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7-c central valley, california https://aa.cviaa.org ">
+ &lt;td>&lt;a href="https://aa7-c.sober.page">aa7-c&lt;/a>&lt;/td>
+ &lt;td>Central Valley, California&lt;/td>
+ &lt;td>&lt;a href="https://aa.cviaa.org">https://aa.cviaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7-c" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7-d amador, calaveras, san joaquin and tuolumne, california https://www.aadelta.org ">
+ &lt;td>&lt;a href="https://aa7-d.sober.page">aa7-d&lt;/a>&lt;/td>
+ &lt;td>Amador, Calaveras, San Joaquin and Tuolumne, California&lt;/td>
+ &lt;td>&lt;a href="https://www.aadelta.org">https://aadelta.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7-d" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7-f greater fresno area, california https://www.fresnoaa.org ">
+ &lt;td>&lt;a href="https://aa7-f.sober.page">aa7-f&lt;/a>&lt;/td>
+ &lt;td>Greater Fresno Area, California&lt;/td>
+ &lt;td>&lt;a href="https://www.fresnoaa.org">https://fresnoaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7-f" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7-s sacramento, california https://aasacramento.org ">
+ &lt;td>&lt;a href="https://aa7-s.sober.page">aa7-s&lt;/a>&lt;/td>
+ &lt;td>Sacramento, California&lt;/td>
+ &lt;td>&lt;a href="https://aasacramento.org">https://aasacramento.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7-s" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa7-t tulare county, california https://aa-tulareco.org ">
+ &lt;td>&lt;a href="https://aa7-t.sober.page">aa7-t&lt;/a>&lt;/td>
+ &lt;td>Tulare County, California&lt;/td>
+ &lt;td>&lt;a href="https://aa-tulareco.org">https://aa-tulareco.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa7-t" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa8 san diego and imperial area, california http://www.area8aa.org ">
+ &lt;td>&lt;a href="https://aa8.sober.page">aa8&lt;/a>&lt;/td>
+ &lt;td>&lt;b>San Diego and Imperial Area, California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area8aa.org">http://area8aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa8" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9 mid-southern california http://www.msca09aa.org ">
+ &lt;td>&lt;a href="https://aa9.sober.page">aa9&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Mid-Southern California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.msca09aa.org">http://msca09aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-1 torrance area, california https://mscadistrict1.org ">
+ &lt;td>&lt;a href="https://aa9-1.sober.page">aa9-1&lt;/a>&lt;/td>
+ &lt;td>Torrance Area, California&lt;/td>
+ &lt;td>&lt;a href="https://mscadistrict1.org">https://mscadistrict1.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-4 long beach, california https://longbeachaa.org ">
+ &lt;td>&lt;a href="https://aa9-4.sober.page">aa9-4&lt;/a>&lt;/td>
+ &lt;td>Long Beach, California&lt;/td>
+ &lt;td>&lt;a href="https://longbeachaa.org">https://longbeachaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-5 pacific region, california https://district5msca09.com ">
+ &lt;td>&lt;a href="https://aa9-5.sober.page">aa9-5&lt;/a>&lt;/td>
+ &lt;td>Pacific Region, California&lt;/td>
+ &lt;td>&lt;a href="https://district5msca09.com">https://district5msca09.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-6 huntington beach, california https://district6area09.org ">
+ &lt;td>&lt;a href="https://aa9-6.sober.page">aa9-6&lt;/a>&lt;/td>
+ &lt;td>Huntington Beach, California&lt;/td>
+ &lt;td>&lt;a href="https://district6area09.org">https://district6area09.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-9 palm desert, california https://district9gs.com ">
+ &lt;td>&lt;a href="https://aa9-9.sober.page">aa9-9&lt;/a>&lt;/td>
+ &lt;td>Palm Desert, California&lt;/td>
+ &lt;td>&lt;a href="https://district9gs.com">https://district9gs.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-12 pacific region, california https://www.mscadistrict12.org ">
+ &lt;td>&lt;a href="https://aa9-12.sober.page">aa9-12&lt;/a>&lt;/td>
+ &lt;td>Pacific Region, California&lt;/td>
+ &lt;td>&lt;a href="https://www.mscadistrict12.org">https://mscadistrict12.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa9-17 temecula area, california https://aadistrict17.info ">
+ &lt;td>&lt;a href="https://aa9-17.sober.page">aa9-17&lt;/a>&lt;/td>
+ &lt;td>Temecula Area, California&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict17.info">https://aadistrict17.info&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa9-17" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa10 colorado http://www.coloradoaa.org ">
+ &lt;td>&lt;a href="https://aa10.sober.page">aa10&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Colorado&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.coloradoaa.org">http://coloradoaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa10" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa11 connecticut http://www.ct-aa.org ">
+ &lt;td>&lt;a href="https://aa11.sober.page">aa11&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Connecticut&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.ct-aa.org">http://ct-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa11" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa12 delaware http://www.delawareaa.org ">
+ &lt;td>&lt;a href="https://aa12.sober.page">aa12&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Delaware&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.delawareaa.org">http://delawareaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa12-c central delaware https://www.cdiaa-de.org ">
+ &lt;td>&lt;a href="https://aa12-c.sober.page">aa12-c&lt;/a>&lt;/td>
+ &lt;td>Central Delaware&lt;/td>
+ &lt;td>&lt;a href="https://www.cdiaa-de.org">https://cdiaa-de.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa12-c" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa12-n northern delaware https://ndiaa.org ">
+ &lt;td>&lt;a href="https://aa12-n.sober.page">aa12-n&lt;/a>&lt;/td>
+ &lt;td>Northern Delaware&lt;/td>
+ &lt;td>&lt;a href="https://ndiaa.org">https://ndiaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa12-n" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa12-s southern delaware https://sussexaa.org ">
+ &lt;td>&lt;a href="https://aa12-s.sober.page">aa12-s&lt;/a>&lt;/td>
+ &lt;td>Southern Delaware&lt;/td>
+ &lt;td>&lt;a href="https://sussexaa.org">https://sussexaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa12-s" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa13 district of columbia http://www.area13aa.org ">
+ &lt;td>&lt;a href="https://aa13.sober.page">aa13&lt;/a>&lt;/td>
+ &lt;td>&lt;b>District Of Columbia&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area13aa.org">http://area13aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa13" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14 north florida http://www.aanorthflorida.org ">
+ &lt;td>&lt;a href="https://aa14.sober.page">aa14&lt;/a>&lt;/td>
+ &lt;td>&lt;b>North Florida&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aanorthflorida.org">http://aanorthflorida.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-1 northeast florida https://www.neflaa.org ">
+ &lt;td>&lt;a href="https://aa14-1.sober.page">aa14-1&lt;/a>&lt;/td>
+ &lt;td>Northeast Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.neflaa.org">https://neflaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-5 tallahassee, perry, quincy and apalachicola, florida https://intergroup5.org ">
+ &lt;td>&lt;a href="https://aa14-5.sober.page">aa14-5&lt;/a>&lt;/td>
+ &lt;td>Tallahassee, Perry, Quincy and Apalachicola, Florida&lt;/td>
+ &lt;td>&lt;a href="https://intergroup5.org">https://intergroup5.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-6 st augustine and hastings beach, florida https://staugustineaa.org ">
+ &lt;td>&lt;a href="https://aa14-6.sober.page">aa14-6&lt;/a>&lt;/td>
+ &lt;td>St Augustine and Hastings Beach, Florida&lt;/td>
+ &lt;td>&lt;a href="https://staugustineaa.org">https://staugustineaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-6" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-8 volusia county, florida https://aadaytona.org ">
+ &lt;td>&lt;a href="https://aa14-8.sober.page">aa14-8&lt;/a>&lt;/td>
+ &lt;td>Volusia County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aadaytona.org">https://aadaytona.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-8" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-9 central florida https://cflintergroup.org ">
+ &lt;td>&lt;a href="https://aa14-9.sober.page">aa14-9&lt;/a>&lt;/td>
+ &lt;td>Central Florida&lt;/td>
+ &lt;td>&lt;a href="https://cflintergroup.org">https://cflintergroup.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-12 brevard, florida https://www.aaspacecoast.info ">
+ &lt;td>&lt;a href="https://aa14-12.sober.page">aa14-12&lt;/a>&lt;/td>
+ &lt;td>Brevard, Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.aaspacecoast.info">https://aaspacecoast.info&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-13 hernando county, florida https://aahernando.org ">
+ &lt;td>&lt;a href="https://aa14-13.sober.page">aa14-13&lt;/a>&lt;/td>
+ &lt;td>Hernando County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aahernando.org">https://aahernando.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-13" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-14 north central florida https://aagainesville.org ">
+ &lt;td>&lt;a href="https://aa14-14.sober.page">aa14-14&lt;/a>&lt;/td>
+ &lt;td>North Central Florida&lt;/td>
+ &lt;td>&lt;a href="https://aagainesville.org">https://aagainesville.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-14" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-15 titusville, cocoa and n mainland, florida https://district15aa.org ">
+ &lt;td>&lt;a href="https://aa14-15.sober.page">aa14-15&lt;/a>&lt;/td>
+ &lt;td>Titusville, Cocoa and N Mainland, Florida&lt;/td>
+ &lt;td>&lt;a href="https://district15aa.org">https://district15aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-15" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-16 columbia county, florida https://district16area14aa.org ">
+ &lt;td>&lt;a href="https://aa14-16.sober.page">aa14-16&lt;/a>&lt;/td>
+ &lt;td>Columbia County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://district16area14aa.org">https://district16area14aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-16" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-17 marion county, florida https://www.aaocalamarion.org ">
+ &lt;td>&lt;a href="https://aa14-17.sober.page">aa14-17&lt;/a>&lt;/td>
+ &lt;td>Marion County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.aaocalamarion.org">https://aaocalamarion.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-17" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-22 flagler county, florida https://aaflagler.org ">
+ &lt;td>&lt;a href="https://aa14-22.sober.page">aa14-22&lt;/a>&lt;/td>
+ &lt;td>Flagler County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aaflagler.org">https://aaflagler.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-22" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-27 dixie, gilchrist and levy counties, florida https://district27aa.org ">
+ &lt;td>&lt;a href="https://aa14-27.sober.page">aa14-27&lt;/a>&lt;/td>
+ &lt;td>Dixie, Gilchrist and Levy Counties, Florida&lt;/td>
+ &lt;td>&lt;a href="https://district27aa.org">https://district27aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-27" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-28 citrus county, florida https://aadistrict28.org ">
+ &lt;td>&lt;a href="https://aa14-28.sober.page">aa14-28&lt;/a>&lt;/td>
+ &lt;td>Citrus County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict28.org">https://aadistrict28.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-28" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-30 northern southside jax, florida https://neflaadistrict30.org ">
+ &lt;td>&lt;a href="https://aa14-30.sober.page">aa14-30&lt;/a>&lt;/td>
+ &lt;td>Northern Southside Jax, Florida&lt;/td>
+ &lt;td>&lt;a href="https://neflaadistrict30.org">https://neflaadistrict30.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-30" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-31 osceola county, florida https://osceolacountyintergroup.org ">
+ &lt;td>&lt;a href="https://aa14-31.sober.page">aa14-31&lt;/a>&lt;/td>
+ &lt;td>Osceola County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://osceolacountyintergroup.org">https://osceolacountyintergroup.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-31" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa14-33 lingüístico hispano, north florida http://www.aahispanos.org ">
+ &lt;td>&lt;a href="https://aa14-33.sober.page">aa14-33&lt;/a>&lt;/td>
+ &lt;td>Lingüístico Hispano, North Florida&lt;/td>
+ &lt;td>&lt;a href="http://www.aahispanos.org">http://aahispanos.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa14-33" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15 south florida/bahamas/us v.i./antigua http://www.area15aa.org ">
+ &lt;td>&lt;a href="https://aa15.sober.page">aa15&lt;/a>&lt;/td>
+ &lt;td>&lt;b>South Florida/Bahamas/US V.I./Antigua&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area15aa.org">http://area15aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-1 pinellas county, florida https://aapinellas.org ">
+ &lt;td>&lt;a href="https://aa15-1.sober.page">aa15-1&lt;/a>&lt;/td>
+ &lt;td>Pinellas County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aapinellas.org">https://aapinellas.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-1" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-2 tampa (tri-county), florida https://aatampa-area.org ">
+ &lt;td>&lt;a href="https://aa15-2.sober.page">aa15-2&lt;/a>&lt;/td>
+ &lt;td>Tampa (Tri-County), Florida&lt;/td>
+ &lt;td>&lt;a href="https://aatampa-area.org">https://aatampa-area.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-2" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-3 heartland (central florida) http://heartlandintergroup.org ">
+ &lt;td>&lt;a href="https://aa15-3.sober.page">aa15-3&lt;/a>&lt;/td>
+ &lt;td>Heartland (Central Florida)&lt;/td>
+ &lt;td>&lt;a href="http://heartlandintergroup.org">http://heartlandintergroup.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-3" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-4 sarasota-manatee counties, florida https://www.aasrq.org ">
+ &lt;td>&lt;a href="https://aa15-4.sober.page">aa15-4&lt;/a>&lt;/td>
+ &lt;td>Sarasota-Manatee Counties, Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.aasrq.org">https://aasrq.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-4" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-5 southwest florida https://aadistrict5.org ">
+ &lt;td>&lt;a href="https://aa15-5.sober.page">aa15-5&lt;/a>&lt;/td>
+ &lt;td>Southwest Florida&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict5.org">https://aadistrict5.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-6a martin county, florida https://martincountyaa.org ">
+ &lt;td>&lt;a href="https://aa15-6a.sober.page">aa15-6a&lt;/a>&lt;/td>
+ &lt;td>Martin County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://martincountyaa.org">https://martincountyaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-6a" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-6b indian river county, florida https://indianriveraa.com ">
+ &lt;td>&lt;a href="https://aa15-6b.sober.page">aa15-6b&lt;/a>&lt;/td>
+ &lt;td>Indian River County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://indianriveraa.com">https://indianriveraa.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-6b" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-6c st. lucie county, florida https://aastlucieintergroup.com ">
+ &lt;td>&lt;a href="https://aa15-6c.sober.page">aa15-6c&lt;/a>&lt;/td>
+ &lt;td>St. Lucie County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aastlucieintergroup.com">https://aastlucieintergroup.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-6c" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-7 lee county area, florida https://leecountyaa.org ">
+ &lt;td>&lt;a href="https://aa15-7.sober.page">aa15-7&lt;/a>&lt;/td>
+ &lt;td>Lee County Area, Florida&lt;/td>
+ &lt;td>&lt;a href="https://leecountyaa.org">https://leecountyaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-7" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-8a north palm beach, florida https://aa-palmbeachcounty.org ">
+ &lt;td>&lt;a href="https://aa15-8a.sober.page">aa15-8a&lt;/a>&lt;/td>
+ &lt;td>North Palm Beach, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aa-palmbeachcounty.org">https://aa-palmbeachcounty.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-8a" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-8b south palm beach, florida https://www.aainpalmbeach.org ">
+ &lt;td>&lt;a href="https://aa15-8b.sober.page">aa15-8b&lt;/a>&lt;/td>
+ &lt;td>South Palm Beach, Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.aainpalmbeach.org">https://aainpalmbeach.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-8b" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-9 broward county, florida https://aabroward.org ">
+ &lt;td>&lt;a href="https://aa15-9.sober.page">aa15-9&lt;/a>&lt;/td>
+ &lt;td>Broward County, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aabroward.org">https://aabroward.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-9" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-10 miami and dade, florida https://aamiamidade.org ">
+ &lt;td>&lt;a href="https://aa15-10.sober.page">aa15-10&lt;/a>&lt;/td>
+ &lt;td>Miami and Dade, Florida&lt;/td>
+ &lt;td>&lt;a href="https://aamiamidade.org">https://aamiamidade.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-10" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-11 key west to conch key, florida http://www.aafloridakeys.org ">
+ &lt;td>&lt;a href="https://aa15-11.sober.page">aa15-11&lt;/a>&lt;/td>
+ &lt;td>Key West to Conch Key, Florida&lt;/td>
+ &lt;td>&lt;a href="http://www.aafloridakeys.org">http://aafloridakeys.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-11" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-14 us virgin islands https://aavirginislands.org ">
+ &lt;td>&lt;a href="https://aa15-14.sober.page">aa15-14&lt;/a>&lt;/td>
+ &lt;td>US Virgin Islands&lt;/td>
+ &lt;td>&lt;a href="https://aavirginislands.org">https://aavirginislands.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-14" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-15 west pasco, florida https://www.aapasco.org ">
+ &lt;td>&lt;a href="https://aa15-15.sober.page">aa15-15&lt;/a>&lt;/td>
+ &lt;td>West Pasco, Florida&lt;/td>
+ &lt;td>&lt;a href="https://www.aapasco.org">https://aapasco.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-15" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-16 the bahamas http://www.bahamasaa.org ">
+ &lt;td>&lt;a href="https://aa15-16.sober.page">aa15-16&lt;/a>&lt;/td>
+ &lt;td>The Bahamas&lt;/td>
+ &lt;td>&lt;a href="http://www.bahamasaa.org">http://bahamasaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-16" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-19 the cayman islands https://caymanaa.org ">
+ &lt;td>&lt;a href="https://aa15-19.sober.page">aa15-19&lt;/a>&lt;/td>
+ &lt;td>The Cayman Islands&lt;/td>
+ &lt;td>&lt;a href="https://caymanaa.org">https://caymanaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-19" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa15-20 naples, florida https://district20aa.org ">
+ &lt;td>&lt;a href="https://aa15-20.sober.page">aa15-20&lt;/a>&lt;/td>
+ &lt;td>Naples, Florida&lt;/td>
+ &lt;td>&lt;a href="https://district20aa.org">https://district20aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa15-20" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa16 georgia http://www.aageorgia.org ">
+ &lt;td>&lt;a href="https://aa16.sober.page">aa16&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Georgia&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aageorgia.org">http://aageorgia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa16" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa17 hawaii http://www.area17aa.org ">
+ &lt;td>&lt;a href="https://aa17.sober.page">aa17&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Hawaii&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area17aa.org">http://area17aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa17" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa18 idaho http://www.idahoarea18aa.org ">
+ &lt;td>&lt;a href="https://aa18.sober.page">aa18&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Idaho&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.idahoarea18aa.org">http://idahoarea18aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa18" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa18-v treasure valley, idaho https://tvico.net ">
+ &lt;td>&lt;a href="https://aa18-v.sober.page">aa18-v&lt;/a>&lt;/td>
+ &lt;td>Treasure Valley, Idaho&lt;/td>
+ &lt;td>&lt;a href="https://tvico.net">https://tvico.net&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa18-v" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa19 chicago illinois http://www.chicagoaa.org ">
+ &lt;td>&lt;a href="https://aa19.sober.page">aa19&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Chicago Illinois&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.chicagoaa.org">http://chicagoaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa19" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20 northern illinois http://www.aa-nia.org ">
+ &lt;td>&lt;a href="https://aa20.sober.page">aa20&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern Illinois&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-nia.org">http://aa-nia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-10 lake county area, illinois https://district10nia.org ">
+ &lt;td>&lt;a href="https://aa20-10.sober.page">aa20-10&lt;/a>&lt;/td>
+ &lt;td>Lake County Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://district10nia.org">https://district10nia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-10" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-11 crystal lake, illinois https://aa-nia-dist11.org ">
+ &lt;td>&lt;a href="https://aa20-11.sober.page">aa20-11&lt;/a>&lt;/td>
+ &lt;td>Crystal Lake, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aa-nia-dist11.org">https://aa-nia-dist11.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-11" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-12 deerfield and waukegan area, illinois http://www.aadistrict12.com ">
+ &lt;td>&lt;a href="https://aa20-12.sober.page">aa20-12&lt;/a>&lt;/td>
+ &lt;td>Deerfield and Waukegan Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="http://www.aadistrict12.com">http://aadistrict12.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-21 palatine, rolling meadows and inverness, illinois https://www.aapalatine.org ">
+ &lt;td>&lt;a href="https://aa20-21.sober.page">aa20-21&lt;/a>&lt;/td>
+ &lt;td>Palatine, Rolling Meadows and Inverness, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://www.aapalatine.org">https://aapalatine.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-21" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-22 elgin, carpentersville, east/west dundee, hampshire and gilberts, illinois https://dist22.aa-nia.org ">
+ &lt;td>&lt;a href="https://aa20-22.sober.page">aa20-22&lt;/a>&lt;/td>
+ &lt;td>Elgin, Carpentersville, East/West Dundee, Hampshire and Gilberts, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://dist22.aa-nia.org">https://dist22.aa-nia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-22" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-23 bartlett, hanover park and streamwood, illinois https://dist23-aa-nia.org ">
+ &lt;td>&lt;a href="https://aa20-23.sober.page">aa20-23&lt;/a>&lt;/td>
+ &lt;td>Bartlett, Hanover Park and Streamwood, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://dist23-aa-nia.org">https://dist23-aa-nia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-23" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-28 barrington area, illinois https://barringtonaa.org ">
+ &lt;td>&lt;a href="https://aa20-28.sober.page">aa20-28&lt;/a>&lt;/td>
+ &lt;td>Barrington Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://barringtonaa.org">https://barringtonaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-28" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-40 glen ellyn, wheaton and warrenville, illinois http://www.aa-nia-dist40.org ">
+ &lt;td>&lt;a href="https://aa20-40.sober.page">aa20-40&lt;/a>&lt;/td>
+ &lt;td>Glen Ellyn, Wheaton and Warrenville, Illinois&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-nia-dist40.org">http://aa-nia-dist40.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-40" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-41 dupage county, illinois https://dupage41aa.org ">
+ &lt;td>&lt;a href="https://aa20-41.sober.page">aa20-41&lt;/a>&lt;/td>
+ &lt;td>Dupage County, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://dupage41aa.org">https://dupage41aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-41" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-42 westmont area, illinois https://aa-nia-dist42.us ">
+ &lt;td>&lt;a href="https://aa20-42.sober.page">aa20-42&lt;/a>&lt;/td>
+ &lt;td>Westmont Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aa-nia-dist42.us">https://aa-nia-dist42.us&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-42" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-43 bolingbrook, lisle and naperville, illinois https://aa-nia-dist43.org ">
+ &lt;td>&lt;a href="https://aa20-43.sober.page">aa20-43&lt;/a>&lt;/td>
+ &lt;td>Bolingbrook, Lisle and Naperville, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aa-nia-dist43.org">https://aa-nia-dist43.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-43" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-51 will and grundy area, illinois https://aadistrict51.org ">
+ &lt;td>&lt;a href="https://aa20-51.sober.page">aa20-51&lt;/a>&lt;/td>
+ &lt;td>Will and Grundy Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict51.org">https://aadistrict51.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-51" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-52 kankakee, illinois https://www.kankakee-aa.org ">
+ &lt;td>&lt;a href="https://aa20-52.sober.page">aa20-52&lt;/a>&lt;/td>
+ &lt;td>Kankakee, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://www.kankakee-aa.org">https://kankakee-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-52" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-61 batavia, elburn, geneva, la fox and st. charles, illinois https://aadistrict61.org ">
+ &lt;td>&lt;a href="https://aa20-61.sober.page">aa20-61&lt;/a>&lt;/td>
+ &lt;td>Batavia, Elburn, Geneva, La Fox and St. Charles, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict61.org">https://aadistrict61.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-61" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-62 kendall county, illinois https://www.aadistrict62.org ">
+ &lt;td>&lt;a href="https://aa20-62.sober.page">aa20-62&lt;/a>&lt;/td>
+ &lt;td>Kendall County, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://www.aadistrict62.org">https://aadistrict62.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-62" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-64 southern fox valley, illinois https://district64.com ">
+ &lt;td>&lt;a href="https://aa20-64.sober.page">aa20-64&lt;/a>&lt;/td>
+ &lt;td>Southern Fox Valley, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://district64.com">https://district64.com&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-64" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-70 boone and winnebago counties, illinois https://district70aa.org ">
+ &lt;td>&lt;a href="https://aa20-70.sober.page">aa20-70&lt;/a>&lt;/td>
+ &lt;td>Boone and Winnebago Counties, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://district70aa.org">https://district70aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-70" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-71 dekalb area, illinois http://www.aadistrict71.org ">
+ &lt;td>&lt;a href="https://aa20-71.sober.page">aa20-71&lt;/a>&lt;/td>
+ &lt;td>DeKalb Area, Illinois&lt;/td>
+ &lt;td>&lt;a href="http://www.aadistrict71.org">http://aadistrict71.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-71" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-72 jo daviess, stephenson and carroll counties, illinois https://aa-nwil.org ">
+ &lt;td>&lt;a href="https://aa20-72.sober.page">aa20-72&lt;/a>&lt;/td>
+ &lt;td>Jo Daviess, Stephenson and Carroll Counties, Illinois&lt;/td>
+ &lt;td>&lt;a href="https://aa-nwil.org">https://aa-nwil.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-72" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-73 ogle, lee, carroll, and whiteside counties https://aa-nia-dist73.org ">
+ &lt;td>&lt;a href="https://aa20-73.sober.page">aa20-73&lt;/a>&lt;/td>
+ &lt;td>Ogle, Lee, Carroll, and Whiteside Counties&lt;/td>
+ &lt;td>&lt;a href="https://aa-nia-dist73.org">https://aa-nia-dist73.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-73" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa20-90 quad cities, kewanee, aledo, illinois http://www.aaquadcities.org ">
+ &lt;td>&lt;a href="https://aa20-90.sober.page">aa20-90&lt;/a>&lt;/td>
+ &lt;td>Quad Cities, Kewanee, Aledo, Illinois&lt;/td>
+ &lt;td>&lt;a href="http://www.aaquadcities.org">http://aaquadcities.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa20-90" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa21 southern illinois http://area21aa.org ">
+ &lt;td>&lt;a href="https://aa21.sober.page">aa21&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern Illinois&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://area21aa.org">http://area21aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa21" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa22 northern indiana http://www.area22indiana.org ">
+ &lt;td>&lt;a href="https://aa22.sober.page">aa22&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern Indiana&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area22indiana.org">http://area22indiana.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa22" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa23 southern indiana http://www.area23aa.org ">
+ &lt;td>&lt;a href="https://aa23.sober.page">aa23&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern Indiana&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area23aa.org">http://area23aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa23" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa24 iowa http://www.aa-iowa.org ">
+ &lt;td>&lt;a href="https://aa24.sober.page">aa24&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Iowa&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-iowa.org">http://aa-iowa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa24" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa25 kansas https://ks-aa.org ">
+ &lt;td>&lt;a href="https://aa25.sober.page">aa25&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Kansas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="https://ks-aa.org">https://ks-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa25" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa26 kentucky http://www.area26.net ">
+ &lt;td>&lt;a href="https://aa26.sober.page">aa26&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Kentucky&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area26.net">http://area26.net&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa26" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa27 louisiana http://www.aa-louisiana.org ">
+ &lt;td>&lt;a href="https://aa27.sober.page">aa27&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Louisiana&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-louisiana.org">http://aa-louisiana.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa27" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa28 maine http://www.maineaa.org ">
+ &lt;td>&lt;a href="https://aa28.sober.page">aa28&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Maine&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.maineaa.org">http://maineaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa28" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa29 maryland http://www.marylandaa.org ">
+ &lt;td>&lt;a href="https://aa29.sober.page">aa29&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Maryland&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.marylandaa.org">http://marylandaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa29" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa30 eastern massachusetts http://www.aaemass.org ">
+ &lt;td>&lt;a href="https://aa30.sober.page">aa30&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Eastern Massachusetts&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaemass.org">http://aaemass.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa30" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa31 western massachusetts http://www.area31aa.org ">
+ &lt;td>&lt;a href="https://aa31.sober.page">aa31&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Massachusetts&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area31aa.org">http://area31aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa31" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa32 central michigan http://www.cmia32.org ">
+ &lt;td>&lt;a href="https://aa32.sober.page">aa32&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Central Michigan&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.cmia32.org">http://cmia32.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa32" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa33 southeastern michigan http://www.aa-semi.org ">
+ &lt;td>&lt;a href="https://aa33.sober.page">aa33&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southeastern Michigan&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-semi.org">http://aa-semi.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa33" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa34 western michigan http://area34aa.org ">
+ &lt;td>&lt;a href="https://aa34.sober.page">aa34&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Michigan&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://area34aa.org">http://area34aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa34" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa35 northern minnesota http://www.area35.org ">
+ &lt;td>&lt;a href="https://aa35.sober.page">aa35&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern Minnesota&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area35.org">http://area35.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa35" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa36 southern minnesota http://www.area36.org ">
+ &lt;td>&lt;a href="https://aa36.sober.page">aa36&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern Minnesota&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area36.org">http://area36.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa36" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa37 mississippi http://www.aa-mississippi.org ">
+ &lt;td>&lt;a href="https://aa37.sober.page">aa37&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Mississippi&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-mississippi.org">http://aa-mississippi.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa37" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa38 eastern missouri http://www.eamo.org ">
+ &lt;td>&lt;a href="https://aa38.sober.page">aa38&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Eastern Missouri&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.eamo.org">http://eamo.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa38" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa39 western missouri http://www.wamo-aa.org ">
+ &lt;td>&lt;a href="https://aa39.sober.page">aa39&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Missouri&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.wamo-aa.org">http://wamo-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa39" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa40 montana http://www.aa-montana.org ">
+ &lt;td>&lt;a href="https://aa40.sober.page">aa40&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Montana&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-montana.org">http://aa-montana.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa40" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa41 nebraska http://www.area41.org ">
+ &lt;td>&lt;a href="https://aa41.sober.page">aa41&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Nebraska&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area41.org">http://area41.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa41" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa42 nevada http://www.nevadaarea42.org ">
+ &lt;td>&lt;a href="https://aa42.sober.page">aa42&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Nevada&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.nevadaarea42.org">http://nevadaarea42.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa42" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa43 new hampshire http://www.nhaa.net ">
+ &lt;td>&lt;a href="https://aa43.sober.page">aa43&lt;/a>&lt;/td>
+ &lt;td>&lt;b>New Hampshire&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.nhaa.net">http://nhaa.net&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa43" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa44 northern new jersey http://www.nnjaa.org ">
+ &lt;td>&lt;a href="https://aa44.sober.page">aa44&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northern New Jersey&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.nnjaa.org">http://nnjaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa44" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa45 southern new jersey http://www.snjaa.org ">
+ &lt;td>&lt;a href="https://aa45.sober.page">aa45&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern New Jersey&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.snjaa.org">http://snjaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa45" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa46 new mexico http://www.nm-aa.org ">
+ &lt;td>&lt;a href="https://aa46.sober.page">aa46&lt;/a>&lt;/td>
+ &lt;td>&lt;b>New Mexico&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.nm-aa.org">http://nm-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa46" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa47 central new york http://www.aacny.org ">
+ &lt;td>&lt;a href="https://aa47.sober.page">aa47&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Central New York&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aacny.org">http://aacny.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa47" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa48 neny area association http://www.aahmbny.org ">
+ &lt;td>&lt;a href="https://aa48.sober.page">aa48&lt;/a>&lt;/td>
+ &lt;td>&lt;b>NENY Area Association&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aahmbny.org">http://aahmbny.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa48" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa49 southeast new york http://www.aaseny.org ">
+ &lt;td>&lt;a href="https://aa49.sober.page">aa49&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southeast New York&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaseny.org">http://aaseny.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa49" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa50 western new york http://www.area50wny.org ">
+ &lt;td>&lt;a href="https://aa50.sober.page">aa50&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western New York&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area50wny.org">http://area50wny.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa50" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa51 north carolina http://www.aanorthcarolina.org ">
+ &lt;td>&lt;a href="https://aa51.sober.page">aa51&lt;/a>&lt;/td>
+ &lt;td>&lt;b>North Carolina&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aanorthcarolina.org">http://aanorthcarolina.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa51" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa52 north dakota http://www.aanorthdakota.org ">
+ &lt;td>&lt;a href="https://aa52.sober.page">aa52&lt;/a>&lt;/td>
+ &lt;td>&lt;b>North Dakota&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aanorthdakota.org">http://aanorthdakota.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa52" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa53 central &amp;amp; southeast ohio http://www.area53aa.org ">
+ &lt;td>&lt;a href="https://aa53.sober.page">aa53&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Central &amp;amp; Southeast Ohio&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area53aa.org">http://area53aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa53" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa54 northeast ohio http://www.area54.org ">
+ &lt;td>&lt;a href="https://aa54.sober.page">aa54&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northeast Ohio&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area54.org">http://area54.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa54" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa55 northwest ohio http://www.area55aa.org ">
+ &lt;td>&lt;a href="https://aa55.sober.page">aa55&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northwest Ohio&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area55aa.org">http://area55aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa55" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa56 southwest ohio http://www.aaarea56.org ">
+ &lt;td>&lt;a href="https://aa56.sober.page">aa56&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southwest Ohio&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaarea56.org">http://aaarea56.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa56" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa56-12 hamilton, fairfield, oxford and surounding areas https://aadistrict12and13.org ">
+ &lt;td>&lt;a href="https://aa56-12.sober.page">aa56-12&lt;/a>&lt;/td>
+ &lt;td>Hamilton, Fairfield, Oxford and surounding areas&lt;/td>
+ &lt;td>&lt;a href="https://aadistrict12and13.org">https://aadistrict12and13.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa56-12" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa57 oklahoma http://www.aaoklahoma.org ">
+ &lt;td>&lt;a href="https://aa57.sober.page">aa57&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Oklahoma&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaoklahoma.org">http://aaoklahoma.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa57" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa58 oregon http://www.aa-oregon.org ">
+ &lt;td>&lt;a href="https://aa58.sober.page">aa58&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Oregon&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-oregon.org">http://aa-oregon.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa58" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa59 eastern pennsylvania http://www.area59aa.org ">
+ &lt;td>&lt;a href="https://aa59.sober.page">aa59&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Eastern Pennsylvania&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area59aa.org">http://area59aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa59" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa59-48 greater williamsport area ">
+ &lt;td>&lt;a href="https://aa59-48.sober.page">aa59-48&lt;/a>&lt;/td>
+ &lt;td>Greater Williamsport Area&lt;/td>
+ &lt;td>&lt;a href="https://aa59-48.sober.page">https://aa59-48.sober.page&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa59-48" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa60 western pennsylvania http://www.wpaarea60.org ">
+ &lt;td>&lt;a href="https://aa60.sober.page">aa60&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Pennsylvania&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.wpaarea60.org">http://wpaarea60.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa60" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa61 rhode island http://www.rhodeisland-aa.org ">
+ &lt;td>&lt;a href="https://aa61.sober.page">aa61&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Rhode Island&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.rhodeisland-aa.org">http://rhodeisland-aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa61" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa62 south carolina http://www.area62.org ">
+ &lt;td>&lt;a href="https://aa62.sober.page">aa62&lt;/a>&lt;/td>
+ &lt;td>&lt;b>South Carolina&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area62.org">http://area62.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa62" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa63 south dakota http://www.area63aa.org ">
+ &lt;td>&lt;a href="https://aa63.sober.page">aa63&lt;/a>&lt;/td>
+ &lt;td>&lt;b>South Dakota&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area63aa.org">http://area63aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa63" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa63-5 sioux falls area https://siouxfallsaa.org ">
+ &lt;td>&lt;a href="https://aa63-5.sober.page">aa63-5&lt;/a>&lt;/td>
+ &lt;td>Sioux Falls Area&lt;/td>
+ &lt;td>&lt;a href="https://siouxfallsaa.org">https://siouxfallsaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa63-5" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa64 tennessee http://www.area64assembly.org ">
+ &lt;td>&lt;a href="https://aa64.sober.page">aa64&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Tennessee&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area64assembly.org">http://area64assembly.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa64" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa65 northeast texas http://www.neta65.org ">
+ &lt;td>&lt;a href="https://aa65.sober.page">aa65&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northeast Texas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.neta65.org">http://neta65.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa65" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa66 northwest texas http://www.nwta66.org ">
+ &lt;td>&lt;a href="https://aa66.sober.page">aa66&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northwest Texas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.nwta66.org">http://nwta66.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa66" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa67 southeast texas http://www.aa-seta.org ">
+ &lt;td>&lt;a href="https://aa67.sober.page">aa67&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southeast Texas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-seta.org">http://aa-seta.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa67" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa68 southwest texas http://www.aa-swta.org ">
+ &lt;td>&lt;a href="https://aa68.sober.page">aa68&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southwest Texas&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-swta.org">http://aa-swta.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa68" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa69 utah http://www.aaofutah.org ">
+ &lt;td>&lt;a href="https://aa69.sober.page">aa69&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Utah&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aaofutah.org">http://aaofutah.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa69" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa70 vermont http://www.aavt.org ">
+ &lt;td>&lt;a href="https://aa70.sober.page">aa70&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Vermont&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aavt.org">http://aavt.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa70" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa71 virginia http://www.aavirginia.org ">
+ &lt;td>&lt;a href="https://aa71.sober.page">aa71&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Virginia&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aavirginia.org">http://aavirginia.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa71" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa72 western washington area http://www.area72aa.org ">
+ &lt;td>&lt;a href="https://aa72.sober.page">aa72&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Washington Area&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area72aa.org">http://area72aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa72" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa73 west virginia http://www.aawv.org ">
+ &lt;td>&lt;a href="https://aa73.sober.page">aa73&lt;/a>&lt;/td>
+ &lt;td>&lt;b>West Virginia&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aawv.org">http://aawv.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa73" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa74 n. wisc./upper peninsula mi. http://www.area74.org ">
+ &lt;td>&lt;a href="https://aa74.sober.page">aa74&lt;/a>&lt;/td>
+ &lt;td>&lt;b>N. Wisc./Upper Peninsula Mi.&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area74.org">http://area74.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa74" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa75 southern wisconsin http://www.area75.org ">
+ &lt;td>&lt;a href="https://aa75.sober.page">aa75&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southern Wisconsin&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area75.org">http://area75.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa75" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa76 wyoming https://www.wyomingaa.org ">
+ &lt;td>&lt;a href="https://aa76.sober.page">aa76&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Wyoming&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="https://www.wyomingaa.org">https://wyomingaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa76" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa77 puerto rico http://www.pr-area77.org ">
+ &lt;td>&lt;a href="https://aa77.sober.page">aa77&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Puerto Rico&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.pr-area77.org">http://pr-area77.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa77" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa78 alberta/n.w. territories http://www.area78.org ">
+ &lt;td>&lt;a href="https://aa78.sober.page">aa78&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Alberta/N.W. Territories&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area78.org">http://area78.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa78" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa79 british columbia/yukon http://www.bcyukonaa.org ">
+ &lt;td>&lt;a href="https://aa79.sober.page">aa79&lt;/a>&lt;/td>
+ &lt;td>&lt;b>British Columbia/Yukon&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.bcyukonaa.org">http://bcyukonaa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa79" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa80 manitoba http://www.aamanitoba.org ">
+ &lt;td>&lt;a href="https://aa80.sober.page">aa80&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Manitoba&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aamanitoba.org">http://aamanitoba.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa80" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa81 new brunswick/prince edw isl. http://www.area81aa.ca ">
+ &lt;td>&lt;a href="https://aa81.sober.page">aa81&lt;/a>&lt;/td>
+ &lt;td>&lt;b>New Brunswick/Prince Edw Isl.&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area81aa.ca">http://area81aa.ca&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa81" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa82 nova scotia/nfld/lab http://www.area82aa.org ">
+ &lt;td>&lt;a href="https://aa82.sober.page">aa82&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Nova Scotia/Nfld/Lab&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area82aa.org">http://area82aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa82" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa83 eastern ontario http://www.area83aa.org ">
+ &lt;td>&lt;a href="https://aa83.sober.page">aa83&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Eastern Ontario&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area83aa.org">http://area83aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa83" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa84 northeast ontario http://www.area84aa.org ">
+ &lt;td>&lt;a href="https://aa84.sober.page">aa84&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northeast Ontario&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area84aa.org">http://area84aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa84" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa85 northwest ontario http://www.aa-nwo-area85.org ">
+ &lt;td>&lt;a href="https://aa85.sober.page">aa85&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northwest Ontario&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa-nwo-area85.org">http://aa-nwo-area85.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa85" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa86 western ontario http://www.area86aa.org ">
+ &lt;td>&lt;a href="https://aa86.sober.page">aa86&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Western Ontario&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area86aa.org">http://area86aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa86" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa87 southwest quebec http://www.aa87.org ">
+ &lt;td>&lt;a href="https://aa87.sober.page">aa87&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southwest Quebec&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aa87.org">http://aa87.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa87" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa88 southeast quebec https://aaregion88.org ">
+ &lt;td>&lt;a href="https://aa88.sober.page">aa88&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Southeast Quebec&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="https://aaregion88.org">https://aaregion88.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa88" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa89 northeast quebec https://aa89.org ">
+ &lt;td>&lt;a href="https://aa89.sober.page">aa89&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northeast Quebec&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="https://aa89.org">https://aa89.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa89" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa90 northwest quebec https://aaregion90.org ">
+ &lt;td>&lt;a href="https://aa90.sober.page">aa90&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Northwest Quebec&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="https://aaregion90.org">https://aaregion90.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa90" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa91 saskatchewan http://www.aasask.org ">
+ &lt;td>&lt;a href="https://aa91.sober.page">aa91&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Saskatchewan&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.aasask.org">http://aasask.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa91" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa92 washington state east http://www.area92aa.org ">
+ &lt;td>&lt;a href="https://aa92.sober.page">aa92&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Washington State East&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area92aa.org">http://area92aa.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa92" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;tr class="searchable-row" data-searchable="aa93 central california http://www.area93.org ">
+ &lt;td>&lt;a href="https://aa93.sober.page">aa93&lt;/a>&lt;/td>
+ &lt;td>&lt;b>Central California&lt;/b>&lt;/td>
+ &lt;td>&lt;a href="http://www.area93.org">http://area93.org&lt;/a>
+ &lt;/td>
+ &lt;/tr>
+ &lt;tr class="expandable-row" data-parent="aa93" style="display: none;">
+ &lt;td>&lt;/td>
+ &lt;td colspan="2" class="keywords">&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+
+&lt;script>
+document.addEventListener("DOMContentLoaded", function() {
+
+ 
+ const searchFilter = document.getElementById("search-filter");
+ const resetFilterBtn = document.getElementById("reset-filters");
+ const searchableRows = document.querySelectorAll(".searchable-row");
+ const sortableHeaders = document.querySelectorAll(".sortable");
+ let currentSortedHeader = null;
+ let ascending = true;
+
+ 
+ const expandButtons = document.querySelectorAll('.expand-button');
+
+ 
+ loadSavedFilters();
+
+ 
+ searchFilter.addEventListener("input", filterList);
+ resetFilterBtn.addEventListener("click", resetFilters);
+ sortableHeaders.forEach(header => {
+ header.addEventListener("click", () => {
+ toggleSort(header);
+ sortList(header);
+ });
+ });
+
+ 
+ expandButtons.forEach(button => {
+ button.addEventListener('click', function() {
+ const parentRow = button.closest('.searchable-row');
+ const expandableRow = parentRow.nextElementSibling;
+
+ if (button.textContent === '+') {
+ button.textContent = '-';
+ expandableRow.style.display = 'table-row';
+ } else {
+ button.textContent = '+';
+ expandableRow.style.display = 'none';
+ }
+ });
+ });
+
+ function filterList() {
+ const enteredSearch = searchFilter.value.toLowerCase();
+
+ searchableRows.forEach(row => {
+ const rowSearchable = row.getAttribute("data-searchable");
+ 
+ const searchMatch = enteredSearch === "" || rowSearchable.includes(enteredSearch);
+ row.style.display = searchMatch ? "table-row" : "none";
+
+ 
+ const expandButton = row.querySelector('.expand-button');
+ const expandableRow = row.nextElementSibling;
+
+ 
+ if (expandButton &amp;&amp; expandableRow) {
+ 
+ if (expandButton.textContent === '-' &amp;&amp; searchMatch) {
+ expandableRow.style.display = 'table-row';
+ } else {
+ expandableRow.style.display = 'none';
+ }
+ }
+ });
+
+ 
+ saveFilters(enteredSearch);
+ }
+
+ function saveFilters(search) {
+ const filters = {
+ search: search,
+ };
+
+ localStorage.setItem("savedFilters", JSON.stringify(filters));
+ }
+
+ function loadSavedFilters() {
+ const savedFilters = JSON.parse(localStorage.getItem("savedFilters"));
+
+ if (savedFilters) {
+ searchFilter.value = savedFilters.search !== undefined ? savedFilters.search : "";
+
+ filterList(); 
+ }
+ }
+
+ function resetFilters() {
+ searchFilter.value = "";
+
+ filterList(); 
+ }
+
+ function toggleSort(header) {
+ if (header === currentSortedHeader) {
+ ascending = !ascending;
+ } else {
+ currentSortedHeader = header;
+ ascending = true;
+ removeSortArrows();
+ header.classList.add("sort-asc");
+ }
+ header.classList.toggle("sort-desc", !ascending);
+ header.classList.toggle("sort-asc", ascending);
+ }
+
+ function removeSortArrows() {
+ sortableHeaders.forEach(header => {
+ header.classList.remove("sort-asc", "sort-desc");
+ });
+ }
+
+ function sortList(header) {
+ const columnIndex = Array.from(header.parentNode.children).indexOf(header);
+
+ const sortedRows = Array.from(searchableRows).sort((rowA, rowB) => {
+ const cellA = rowA.children[columnIndex].textContent;
+ const cellB = rowB.children[columnIndex].textContent;
+
+ 
+ if (cellA === "") return ascending ? 1 : -1;
+ if (cellB === "") return ascending ? -1 : 1;
+
+ return (cellA.localeCompare(cellB)) * (ascending ? 1 : -1);
+ });
+
+ sortedRows.forEach(row => {
+ const parentRow = row;
+ const expandableRow = row.nextElementSibling;
+
+ 
+ parentRow.parentNode.appendChild(parentRow);
+ if (expandableRow &amp;&amp; expandableRow.classList.contains('expandable-row')) {
+ parentRow.parentNode.appendChild(expandableRow);
+ }
+ });
+ }
+
+});
+&lt;/script>
+
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Each group is responsible for their own website and the content within.
+Meeting information is managed by their respective groups.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p></description></item><item><title>Unconfigured Subdomain</title><link>https://about.sober.page/unconfigured/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://about.sober.page/unconfigured/</guid><description>&lt;p>You have been directed to this page because the requested resource does not
+exist, or is not correctly configured.&lt;/p>
+&lt;p>You may use our index to verify the resource should exist or report any errors
+to the &lt;a href="https://discord.gg/hjTJSA7Ynu">discord group&lt;/a>.&lt;/p></description></item></channel></rss>
