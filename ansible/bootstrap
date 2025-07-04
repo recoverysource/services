@@ -1,32 +1,87 @@
 #!/bin/bash
 ##
 # Basic list of commands needed to get this ansible formula running on a server.
+#
+# Unsafe Usage:
+#   curl -s https://raw.githubusercontent.com/recoverysource/services/refs/heads/release/ansible/bootstrap | bash
 ##
 set -e
 
-# Services Repository Location
-basedir="${basedir:-/srv/ansible}"
+NOTE() {
+	printf '**\n* %s\n**\n' "$*"
+}
 
-# Prepare Host
-apt-get update
-apt-get upgrade -y
+##
+# Copied from: https://github.com/MTecknology/script-helpers
+##
+to_lower() {
+	printf '%s' "$1" | tr '[:upper:]' '[:lower:]'
+}
+CODENAME="$(to_lower "$(lsb_release --short --codename)")"
+DISTRO="$(to_lower "$(lsb_release --short --id)")"
 
-# Install Dependencies
-apt-get install -y git ansible-core
+if command -v apt-get >/dev/null; then
+	NOTE 'Remove cruft'
+	apt-get purge -y droplet-agent systemd-timesyncd || true
 
-# Clone Repository
-if [ ! -d "$basedir" ]; then
-	git clone -b release https://github.com/recoverysource/services "$basedir"
+	NOTE 'Pristine apt configuration'
+	rm -f /etc/apt/sources.list /etc/apt/sources.list.d/*
+	if [[ "$DISTRO" == 'debian' ]]; then
+		cat >"/etc/apt/sources.list.d/debian.sources" <<-EOF
+		Types: deb
+		URIs: https://deb.debian.org/debian
+		Suites: $CODENAME $CODENAME-updates $CODENAME-backports
+		Components: main
+		Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+
+		Types: deb
+		URIs: https://security.debian.org/debian-security
+		Suites: $CODENAME-security
+		Components: main
+		Signed-By: /usr/share/keyrings/debian-archive-keyring.gpg
+		EOF
+	elif [[ "$DISTRO" == 'ubuntu' ]]; then
+		cat >"/etc/apt/sources.list.d/ubuntu.sources" <<-EOF
+		Types: deb
+		URIs: http://archive.ubuntu.com/ubuntu/
+		Suites: $CODENAME $CODENAME-updates $CODENAME-backports
+		Components: main universe restricted multiverse
+		Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+
+		Types: deb
+		URIs: http://security.ubuntu.com/ubuntu/
+		Suites: $CODENAME-security
+		Components: main universe restricted multiverse
+		Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
+		EOF
+	fi
+
+	NOTE 'Ensure host is up to date'
+	export DEBIAN_FRONTEND=noninteractive
+	apt-get update
+	apt-get upgrade -y
+
+	NOTE 'Install dependencies'
+	apt-get install -y git ansible-core
+elif command -v dnf >/dev/null; then
+	NOTE 'not implemented'
+	exit 1
 fi
 
-# Vault Pass
-if [ ! -e "$basedir/ansible/.vaultpass" ]; then
-	read -r -p 'Provide decryption key for .vaultpass: ' pw
-	gpg --batch --passphrase "$pw" --decrypt \
-		-o "$basedir/ansible/.vaultpass" \
-		"$basedir/ansible/.vaultpass.gpg"
+NOTE 'Verify the ansible repository is present'
+if [ ! -d /srv/ansible ]; then
+	git clone -b release https://github.com/recoverysource/services /srv/ansible
 fi
-chmod 0600 "$basedir/ansible/.vaultpass"
 
-# Initial configuration sync
-cd "$basedir/ansible/" && ansible-playbook maintenance.yml
+NOTE 'Change to ansible directory' # avoids repetitive references
+cd /srv/ansible/ansible || exit 1
+
+NOTE 'Unpack vault password'
+if [ ! -e .vaultpass ]; then
+	read -rsp 'Provide decryption key for .vaultpass: ' pw
+	gpg --batch --passphrase "$pw" --decrypt -o .vaultpass .vaultpass.gpg
+fi
+chmod 0600 .vaultpass
+
+NOTE 'Initial configuration sync'
+ansible-playbook maintenance.yml
