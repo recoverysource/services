@@ -1,0 +1,30 @@
+#!/bin/sh
+##
+# Basic list of commands needed to get this ansible formula running on a server.
+##
+set -e
+
+# Services Repository Location
+basedir="${basedir:-/srv/ansible}"
+
+# Prepare Host
+apt-get update
+apt-get upgrade -y
+
+# Install Dependencies
+apt-get install -y git ansible-core
+
+# Clone Repository
+if [ ! -d "$basedir" ]; then
+	git clone -b release https://github.com/recoverysource/services "$basedir"
+fi
+
+# Vault Pass
+read -s -p 'Provide decryption key for .vaultpass: ' pw
+echo "$pw" | gpg --batch --decrypt \
+	"$basedir/ansible/.vaultpass.gpg" \
+	-o "$basedir/ansible/.vaultpass"
+chmod 0600 "$basedir/ansible/.vaultpass"
+
+# Initial configuration sync
+cd "$basedir/ansible/" && ansible-playbook maintenance.yml
