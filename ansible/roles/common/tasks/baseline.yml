@@ -79,13 +79,13 @@
 - name: Obtain copy of configuration repository
   ansible.builtin.git:
     repo: https://github.com/recoverysource/services.git
-    dest: /srv/ansible
+    dest: /srv/services
     update: false  # ansible-forced updates will reset local history
     version: release
 
 - name: Add self-managed ansible runs to cron
   ansible.builtin.cron:
-    job: "cd /srv/ansible/ansible && git pull && ansible-playbook maintenance.yml"
+    job: "cd /srv/services/ansible && git pull && ansible-playbook maintenance.yml"
     name: ansible-maintenance
     special_time: hourly
   when: "'test' not in ansible_os_family"

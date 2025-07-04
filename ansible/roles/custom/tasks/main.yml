@@ -1,4 +1,9 @@
-- name: Run extra tasks for "service" hosts
-  ansible.builtin.include_tasks:
-    file: service.yml
+# - name: Include name server on (service) hosts
+#   ansible.builtin.include_role:
+#     name: nameserver
+#   when: "'service' in ansible_hostname"
+
+- name: Include forwarding service on (service) hosts
+  ansible.builtin.include_role:
+    name: forwarder
   when: "'service' in ansible_hostname"

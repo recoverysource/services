@@ -2,14 +2,14 @@
 ##
 # This script is the primary entry point for testing within containers.
 #
-# The entire local repository is mounted at /srv/ansible and then testing
+# The entire local repository is mounted at /srv/services and then testing
 # invokes Dockertest.sh from within the container, returning exit status.
 ##
 # Fail on first error
 set -e
 
 # Root Directory
-cd /srv/ansible/test
+cd /srv/services/test
 
 # Initial Configuration
 echo 'NOTICE :: Running initial config sync ...'

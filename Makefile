@@ -28,8 +28,8 @@ test: test-debian test-ubuntu test-rocky
 test-%: tpod_%
 	podman run --rm -it \
 		--hostname service01-test \
-		-v "$(PWD):/srv/ansible" \
-		tpod_$* /srv/ansible/test/docker/test.sh
+		-v "$(PWD):/srv/services" \
+		tpod_$* /srv/services/test/docker/test.sh
 
 
 ##
@@ -45,7 +45,7 @@ tpod_%:
 login-%: tpod_%
 	podman run --rm -it \
 		--hostname service01-test \
-		-v "$(PWD):/srv/ansible" \
+		-v "$(PWD):/srv/services" \
 		tpod_$* /bin/bash
 
 

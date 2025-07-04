@@ -15,7 +15,7 @@ def test_two_runs(host, pytestconfig):
         SUDO_WRAPPER = conftest.SUDO_WRAPPER
 
     for run in range(1, 2):
-        result = host.run(f'{SUDO_WRAPPER} ansible-playbook /srv/ansible/test/maintenance.yml')
+        result = host.run(f'{SUDO_WRAPPER} ansible-playbook /srv/services/test/maintenance.yml')
         assert result.succeeded
         ansible_stdout = result.stdout.replace(' ', '')
         assert 'unreachable=0' in ansible_stdout

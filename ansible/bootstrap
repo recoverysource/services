@@ -69,12 +69,12 @@ elif command -v dnf >/dev/null; then
 fi
 
 NOTE 'Verify the ansible repository is present'
-if [ ! -d /srv/ansible ]; then
-	git clone -b release https://github.com/recoverysource/services /srv/ansible
+if [ ! -d /srv/services ]; then
+	git clone -b release https://github.com/recoverysource/services /srv/services
 fi
 
 NOTE 'Change to ansible directory' # avoids repetitive references
-cd /srv/ansible/ansible || exit 1
+cd /srv/services/ansible || exit 1
 
 NOTE 'Unpack vault password'
 if [ ! -e .vaultpass ]; then

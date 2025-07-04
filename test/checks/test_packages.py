@@ -11,7 +11,7 @@ def test_package_present(host, pkg):
     assert host.package(pkg).is_installed
 
 
-@pytest.mark.parametrize('pkg', ['nano', 'nginx', 'vim-tiny'])
+@pytest.mark.parametrize('pkg', ['nano', 'apache2', 'vim-tiny'])
 def test_package_absent(host, pkg):
     '''Verify specific packages are absent on the system'''
     assert not host.package(pkg).is_installed

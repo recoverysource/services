@@ -1,0 +1,22 @@
+- name: Depends on nginx role
+  ansible.builtin.include_role:
+    name: nginx
+
+- name: Manage nginx forwarder configuration
+  ansible.builtin.copy:
+    src: nginx_forwarder.conf
+    dest: /etc/nginx/conf.d/forwarder.conf
+  notify: reload-nginx
+
+- name: Ensure canonical_redirects.map exists
+  ansible.builtin.command:
+    chdir: /srv/services
+    cmd: python3 -m sync -n /etc/nginx/canonical_redirects.map
+    creates: /etc/nginx/canonical_redirects.map
+  notify: reload-nginx
+
+- name: Regularly re-generate canonical_redirects.map
+  ansible.builtin.cron:
+    job: "cd /srv/service && python3 -m sync -n /etc/nginx/canonical_redirects.map && service nginx reload"
+    name: canonical_redirects
+    special_time: hourly
