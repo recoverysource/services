@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ##
 # Basic list of commands needed to get this ansible formula running on a server.
 ##
@@ -20,10 +20,12 @@ if [ ! -d "$basedir" ]; then
 fi
 
 # Vault Pass
-read -s -p 'Provide decryption key for .vaultpass: ' pw
-echo "$pw" | gpg --batch --decrypt \
-	"$basedir/ansible/.vaultpass.gpg" \
-	-o "$basedir/ansible/.vaultpass"
+if [ ! -e "$basedir/ansible/.vaultpass" ]; then
+	read -r -p 'Provide decryption key for .vaultpass: ' pw
+	gpg --batch --passphrase "$pw" --decrypt \
+		-o "$basedir/ansible/.vaultpass" \
+		"$basedir/ansible/.vaultpass.gpg"
+fi
 chmod 0600 "$basedir/ansible/.vaultpass"
 
 # Initial configuration sync
