@@ -1,0 +1,42 @@
+- name: Install nginx package
+  ansible.builtin.package:
+    name: nginx
+
+- name: Manage no-tokens.conf
+  ansible.builtin.copy:
+    dest: /etc/nginx/conf.d/no-tokens.conf
+    content: |
+      server_tokens off;
+    mode: '0644'
+  notify: reload-nginx
+
+- name: Manage ssl-settings.conf
+  ansible.builtin.copy:
+    dest: /etc/nginx/conf.d/ssl-settings.conf
+    content: |
+      ssl_session_cache shared:SSL:10m;
+      ssl_session_tickets off;
+      ssl_session_timeout 10m;
+      ssl_stapling on;
+      ssl_stapling_verify on;
+    mode: '0644'
+  notify: reload-nginx
+
+- name: Manage nginx.conf
+  ansible.builtin.template:
+    src: nginx.conf
+    dest: /etc/nginx/nginx.conf
+    mode: '0644'
+  notify: reload-nginx
+
+- name: Remove default site configuration
+  ansible.builtin.file:
+    path: /etc/nginx/sites-enabled/default
+    state: absent
+  notify: reload-nginx
+
+- name: Ensure service is running
+  ansible.builtin.service:
+    name: nginx
+    state: started
+  when: not partial_install

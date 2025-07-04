@@ -8,7 +8,7 @@
     state: present
 
 - name: Manage nftables configuration (debian)
-  ansible.builtin.copy:
+  ansible.builtin.template:
     src: nftables.conf
     dest: "{{ common_path_nftables }}"
     mode: "0640"

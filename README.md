@@ -4,22 +4,17 @@ Recovery Source: Services
 This repository provides a "standardized" solution to test, deploy, and maintain
 various web "services" provided by [Recovery Source](https://handbook.recoverysource.net/).
 
-Basic Workflows
----------------
-
-To Do ...
-
 Repository Structure
 --------------------
 
-The structure of this repository:
+Important directories:
 
-- ``Makefile``: Convenient helper tasks
-- ``data/``: Primary source of data (all known 12-Step groups)
-- ``sync/``: Python3 module that collects and re-mangles data
-- ``web_index/``: Hugo-based website that hosts https://sober.page
-- ``ansible/``: Used for configuration management (deploy, maintain, etc.)
-- ``test/``: Data used for automated testing
+- **data**: Source data for all services
+- **web_index**: [Directory listing of 12-Step groups](https://sober.page/)
+- **nameserver**: Configuration for [DNS](https://handbook.recoverysource.net/essentials/websites.html#domain-name-system) services
+- **forwarder**: Configuration for "HTTP Redirector" service
+- **sync**: Python module used to synchronize data
+- **test**: Data used for automated testing
 
 Web Index
 ---------
@@ -69,23 +64,7 @@ of feed locations (type+url)
 Sync
 ----
 
-Data synchronization is done using the ``sync`` python module.
-
-**$ cd services && python3 -m sync -h**:
+Data synchronization is done using the ``sync`` python module:
 ```
-usage: python3 -m sync [-h] [actions] <options>
-
-Synchronize sober.page data with various destinations
-
-options:
-  -h, --help        show this help message and exit
-  -H <path>         Path to source data (hugo format)
-  -w <path>         Local workspace used for importing/caching data
-  -l <level>        Log level (DEBUG, INFO*, WARNING, ERROR)
-
-actions[*]:
-  -m <path>         Generate nginx map file at <path>
-  -z <zone>:<path>  Generate bind9 zone (db) at <path>
-
-[*] At least one script action must be specified.
+$ cd services && python3 -m sync -h
 ```

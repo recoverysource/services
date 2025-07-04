@@ -20,29 +20,24 @@ def parser():
     # Actions
     actions = parser.add_argument_group('actions[*]')
     actions.add_argument(
-        '-n',
-        dest='genmap',
-        action='store_true',
-        help='Generate an nginx map file')
-    actions.add_argument(
-        '-r',
-        dest='records',
-        action='store_true',
-        help='Synchronize DNS records')
-    actions.add_argument(
         '-c',
         dest='collect',
         action='store_true',
         help='Collect meeting data from remote feeds')
-
-    # Options
-    parser.add_argument(
-        '-m',
+    actions.add_argument(
+        '-n',
         dest='mapfile',
         action='store',
         metavar='<path>',
-        default='/etc/nginx/canonical_redirects.map',
-        help='Location of generated Nginx map file')
+        help='Create an nginx map file and store at <path>')
+    actions.add_argument(
+        '-z',
+        dest='records',
+        action='append',
+        metavar='<zone>:<path>',
+        help='Create a bind9 <zone> file and store at <path>')
+
+    # Options
     parser.add_argument(
         '-H',
         dest='hugo_data',

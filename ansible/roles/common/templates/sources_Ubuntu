@@ -4,8 +4,6 @@ Suites: {{ ansible_distribution_release }} {{ ansible_distribution_release }}-up
 Components: main universe restricted multiverse
 Signed-By: /usr/share/keyrings/ubuntu-archive-keyring.gpg
 
-## Ubuntu security updates. Aside from URIs and Suites,
-## this should mirror your choices in the previous section.
 Types: deb
 URIs: http://security.ubuntu.com/ubuntu/
 Suites: {{ ansible_distribution_release }}-security

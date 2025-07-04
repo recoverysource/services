@@ -1,0 +1,13 @@
+- name: Restart nginx service
+  listen: restart-nginx
+  ansible.builtin.service:
+    name: nginx
+    state: restarted
+  when: not partial_install
+
+- name: Reload nginx service
+  listen: reload-nginx
+  ansible.builtin.service:
+    name: nginx
+    state: reloaded
+  when: not partial_install
