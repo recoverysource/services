@@ -87,7 +87,7 @@
   ansible.builtin.cron:
     job: "cd /srv/services/ansible && git pull && ansible-playbook maintenance.yml"
     name: ansible-maintenance
-    special_time: hourly
+    special_time: daily
   when: "'test' not in ansible_os_family"
 
 ##

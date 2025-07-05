@@ -17,6 +17,6 @@
 
 - name: Regularly re-generate canonical_redirects.map
   ansible.builtin.cron:
-    job: "cd /srv/service && python3 -m sync -n /etc/nginx/canonical_redirects.map && service nginx reload"
+    job: "cd /srv/service && git pull && python3 -m sync -n /etc/nginx/canonical_redirects.map && service nginx reload"
     name: canonical_redirects
     special_time: hourly
