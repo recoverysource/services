@@ -3,7 +3,7 @@
 # Basic list of commands needed to get this ansible formula running on a server.
 #
 # Unsafe Usage:
-#   curl -s https://raw.githubusercontent.com/recoverysource/services/refs/heads/release/ansible/bootstrap | bash
+#   wget https://raw.githubusercontent.com/recoverysource/services/refs/heads/release/ansible/bootstrap; bash bootstrap
 ##
 set -e
 
