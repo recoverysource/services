@@ -7,7 +7,7 @@ Generate zone file for bind9 (named)
 ZONE_TEMPLATE = '''\
 ; Bind9 data file for recovery source services
 $TTL    86400
-@       IN      SOA     service1 admin.lustfield.net. (
+@       IN      SOA     service1 admin.sober.page. (
                               1         ; Serial
                            1800         ; Refresh
                            1800         ; Retry
