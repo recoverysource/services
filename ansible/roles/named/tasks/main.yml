@@ -1,0 +1,21 @@
+- name: Load OS-specific variables
+  ansible.builtin.include_vars: "{{ ansible_os_family }}.yml"
+
+- name: Install bind9 package
+  ansible.builtin.package:
+    name:
+      - "{{ named_name }}"
+      - dnsutils
+
+- name: Manage bind9 configuration file
+  ansible.builtin.template:
+    src: "named_{{ ansible_os_family }}.conf"
+    dest: "{{ named_root }}/named.conf"
+    mode: '0640'
+  notify: restart-named
+
+- name: Ensure service is running
+  ansible.builtin.service:
+    name: named
+    state: started
+  when: not partial_install

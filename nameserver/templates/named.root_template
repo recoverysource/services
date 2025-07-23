@@ -1,0 +1,7 @@
+{% for domain in named_domains %}
+zone "{{ domain.rstrip('.') }}." {
+	type master;
+	file "{{ named_root }}/db.managed";
+	allow-query { any; };
+};
+{% endfor %}

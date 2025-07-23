@@ -1,0 +1,23 @@
+- name: Depends on named (bind9) role
+  ansible.builtin.include_role:
+    name: named
+
+- name: Create zone wrapper
+  ansible.builtin.template:
+    src: named.root_template
+    dest: "{{ named_root }}/named.conf.local"
+    mode: '0644'
+  notify: restart-named
+
+- name: Ensure primary zone database exists
+  ansible.builtin.command:
+    chdir: /srv/services
+    cmd: "python3 -m sync -z {{ named_root }}/db.managed"
+    creates: "{{ named_root }}/db.managed"
+  notify: restart-named
+
+- name: Regularly re-generate zone database
+  ansible.builtin.cron:
+    job: "cd /srv/service && python3 -m sync -z {{ named_root }}/db.managed && service {{ named_name }} reload"
+    name: named_database
+    minute: 5

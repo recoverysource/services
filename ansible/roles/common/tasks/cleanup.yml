@@ -63,17 +63,3 @@
       - systemd-timesyncd
     state: absent
   notify: apt-autoremove
-
-- name: Check for scratch volume
-  ansible.builtin.command:
-    cmd: "test -e /dev/mapper/sys-scratch"
-  register: scratch_presence
-  changed_when: false
-  failed_when: false
-
-- name: Remove scratch volume
-  ansible.builtin.command:
-    cmd: "lvm lvremove sys/scratch --yes"
-  register: scratch_removed
-  changed_when: scratch_removed.rc == 0
-  when: scratch_presence.rc == 0

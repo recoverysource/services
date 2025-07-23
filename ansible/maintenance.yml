@@ -1,6 +1,7 @@
 ---
 - name: Regular Maintenance
-  hosts: localhost
+  hosts: [all, localhost]
+  become: true
   vars:
     partial_install: "{{ (ansible_is_chroot) or ('container' in ansible_virtualization_tech_guest) }}"
     is_server: "{{ not 'pc' in ansible_hostname }}"

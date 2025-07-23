@@ -1,8 +1,3 @@
-# - name: Configure Mountpoints
-#   ansible.builtin.include_tasks:
-#     file: mountpoints.yml
-#   when: "'container' not in ansible_virtualization_tech_guest"
-
 - name: Manage access.conf
   ansible.builtin.template:
     src: access.conf

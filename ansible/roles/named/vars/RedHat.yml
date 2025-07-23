@@ -1,0 +1,6 @@
+named_name: bind
+named_root: /etc
+named_domains:
+  - 12step.group
+  - sober.page
+  - sobersupport.group
