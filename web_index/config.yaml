@@ -7,7 +7,7 @@ theme: [aamod, mainroad]
 
 Params:
   description: Index of 12-step Websites
-  source: https://github.com/recoverysource/sober.page
+  source: https://github.com/recoverysource/services
   copyright: Recovery Source
   logo:
     image: img/AAlogo.webp
