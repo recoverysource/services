@@ -47,19 +47,9 @@ def normalize(hugo_data):
 
     # Set default values
     for tag, data in normal_data.items():
-
-        # [type]: forward OR cname
-        if 'type' not in data:
-            # Pages targets
-            if any(s in data['target']
-                   for s in [
-                       'github.io',
-                       'gitlab.io',
-                       'pages.dev',
-                       ]):
-                data['type'] = 'cname'
-            else:
-                data['type'] = 'forward'
+        # Default NS/Record Type: forward
+        if isinstance(data['target'], str) and '^' not in data['target']:
+            normal_data[tag]['target'] = f'forward^{data["target"]}'
 
     # Return normalized data
     return normal_data

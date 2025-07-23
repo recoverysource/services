@@ -32,10 +32,10 @@ def parser():
         help='Create an nginx map file and store at <path>')
     actions.add_argument(
         '-z',
-        dest='records',
-        action='append',
-        metavar='<zone>:<path>',
-        help='Create a bind9 <zone> file and store at <path>')
+        dest='zonefile',
+        action='store',
+        metavar='<path>',
+        help='Create a bind9 zone file and store at <path>')
 
     # Options
     parser.add_argument(

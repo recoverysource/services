@@ -1,0 +1,13 @@
+- name: Restart bind9 service
+  listen: restart-named
+  ansible.builtin.service:
+    name: named
+    state: restarted
+  when: not partial_install
+
+- name: Reload bind9 service
+  listen: reload-named
+  ansible.builtin.service:
+    name: named
+    state: reloaded
+  when: not partial_install

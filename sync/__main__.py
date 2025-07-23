@@ -11,6 +11,7 @@ import sync.db
 import sync.collect
 import sync.hugo
 import sync.nginx
+import sync.named
 import sync.options
 
 
@@ -33,15 +34,20 @@ def main():
     # if (options.collect):
     #     sync.db.open(f'{options.local_data}/cache.db')
 
+    # [-c] Collect meeting data from remote feeds
+    # if options.collect:
+    #     logging.info('Collecting meeting data')
+    #     sync.collect.fetch_all(source_data)
+
     # [-n] Generate an nginx map file
     if options.mapfile:
         logging.info(f'Generating nginx map file at {options.mapfile}')
         sync.nginx.make_map(source_data, options.mapfile)
 
-    # [-c] Collect meeting data from remote feeds
-    # if options.collect:
-    #     logging.info('Collecting meeting data')
-    #     sync.collect.fetch_all(source_data)
+    # [-z] Generate a bind9 zone file
+    if options.zonefile:
+        logging.info(f'Generating zone file at {options.zonefile}')
+        sync.named.make_zone(source_data, options.zonefile)
 
 
 if __name__ == '__main__':

@@ -1,3 +1,9 @@
+# Note:
+# - Domain "forwards" require exactly one "target" to be set to the destination
+# - DNS "nameserver" entries must include "record type"
+#   + Example 1 - target: "CNAME^recoverysource-sites.github.io"
+#   + Example 2 - target: [ "A^1.2.3.4", "AAAA^2606:4700::123" ]
+
 ##
 # United States
 ##
@@ -136,7 +142,7 @@ aa1-23:
 
 aa1-es:
   title: Spanish Meetings in Alabama/N.W. Florida
-  target: recoverysource-sites.github.io
+  target: CNAME^recoverysource-sites.github.io
   #feed: CUSTOM^https://nebula.wsimg.com/4641a8814cca28f189d2889935a6eb72?AccessKeyId=532853725AE1305576CE&disposition=0&alloworigin=1
 
 aa1-24:  # alias
@@ -144,7 +150,7 @@ aa1-24:  # alias
 
 aa1-es:  # aa1-24
   title: Spanish Meetings in Alabama/N.W. Florida
-  target: recoverysource-sites.github.io
+  target: CNAME^recoverysource-sites.github.io
   #feed: CUSTOM^https://nebula.wsimg.com/4641a8814cca28f189d2889935a6eb72?AccessKeyId=532853725AE1305576CE&disposition=0&alloworigin=1
 
 aa2:
@@ -868,7 +874,7 @@ aa59:
 
 aa59-48:
   title: Greater Williamsport Area
-  target: recoverysource-sites.github.io
+  target: CNAME^recoverysource-sites.github.io
 
 aa60:
   title: Western Pennsylvania

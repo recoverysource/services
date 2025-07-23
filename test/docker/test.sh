@@ -13,11 +13,11 @@ cd /srv/services/test
 
 # Initial Configuration
 echo 'NOTICE :: Running initial config sync ...'
-ansible-playbook maintenance.yml
+ansible-playbook -l localhost maintenance.yml
 
 # Ensure Idempotency
 echo 'NOTICE :: Running again (expect zero changes) ...'
-ansible-playbook maintenance.yml | grep -E 'changed=0\s+unreachable=0\s+failed=0\s'
+ansible-playbook -l localhost maintenance.yml | grep -E 'changed=0\s+unreachable=0\s+failed=0\s'
 
 # Validation Tests
 echo 'NOTICE :: Running automated tests ...'
