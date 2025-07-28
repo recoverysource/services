@@ -31,13 +31,13 @@ def main():
     source_data = sync.hugo.normalize(hugo_data)
 
     # Connect to database if needed by action(s) [-c,]
-    # if (options.collect):
-    #     sync.db.open(f'{options.local_data}/cache.db')
+    if (options.collect):
+        sync.db.open(f'{options.local_data}/cache.db')
 
     # [-c] Collect meeting data from remote feeds
-    # if options.collect:
-    #     logging.info('Collecting meeting data')
-    #     sync.collect.fetch_all(source_data)
+    if options.collect:
+        logging.info('Collecting meeting data')
+        sync.collect.fetch_all(source_data)
 
     # [-n] Generate an nginx map file
     if options.mapfile:

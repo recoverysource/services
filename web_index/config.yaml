@@ -5,6 +5,9 @@ title: Sober Page
 languageCode: en-us
 theme: [aamod, mainroad]
 
+ignorefiles:
+  - "data/README.md"
+
 Params:
   description: Index of 12-step Websites
   source: https://github.com/recoverysource/services
